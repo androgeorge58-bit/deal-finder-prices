@@ -1,0 +1,18 @@
+{
+ "generated_at": "2026-08-08T20:03:23+00:00",
+ "schema_version": 2,
+ "thresholds": {
+  "min_days": 14,
+  "real_deal_pct": 15.0,
+  "small_drop_pct": 5.0
+ },
+ "counts": {
+  "lowest": 0,
+  "real": 0,
+  "small": 0,
+  "learning": 0,
+  "fake": 0
+ },
+ "new_today": [],
+ "deals": []
+}
