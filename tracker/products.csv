@@ -1,2 +1,13 @@
-sku_id,name_en,name_ar,category,retailer,url,image
-example-delete-me,Example - delete this row,مثال - امسح السطر ده,electronics,noon,https://www.noon.com/egypt-en/PASTE-URL-HERE/p/,
+sku_id,name_en,name_ar,category,retailer,url,affiliate_url,image
+black-tea-500g,Black Tea 500g,شاي أسود ٥٠٠ جرام,supermarket,noon,https://www.noon.com/egypt-en/black-tea-500g/Z381EC15AEC5299666293Z/p/,,
+dolce-gusto-espresso-16,Dolce Gusto Espresso Buondi 16 Caps,دولشي غوستو إسبريسو بيوندي ١٦ كبسولة,supermarket,noon,https://www.noon.com/egypt-en/dolce-gusto-espresso-buondi-16-capsules/Z6FD6714CF8C9657369D8Z/p/,,
+detergent-oriental-9kg,Automatic Powder Detergent Oriental 9kg,مسحوق غسيل أوتوماتيك أورينتال ٩ كجم,supermarket,noon,https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/,,
+illy-espresso-250g,Illy Classico Ground Espresso Coffee 250g,قهوة إيلي كلاسيكو مطحونة ٢٥٠ جرام,supermarket,noon,https://www.noon.com/egypt-en/illy-classico-classic-roast-ground-espresso-coffee-250g/Z96F92206D45AA51F71D7Z/p/,,
+tomato-paste-2800g,Tomato Paste 2800g,معجون طماطم ٢٨٠٠ جرام,supermarket,noon,https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/,,
+women-blouse-longsleeve,Women Blouse with Long Sleeves,بلوزة نسائية بأكمام طويلة,fashion,noon,https://www.noon.com/egypt-en/women-blouse-with-long-sleeves/ZCDEB88BA5BACE03A1A14Z/p/,,
+khaki-linen-shirt,Khaki Sleeveless Linen Look Shirt,قميص كتاني بيج بدون أكمام,fashion,noon,https://www.noon.com/egypt-en/khaki-zero-sleeve-linen-look-regular-regular-pattern-woven-shirt/ZE474B7548537F4466EE8Z/p/,,
+black-knitted-blouse,Black Shirring Fitted Short Sleeve Blouse,بلوزة سوداء بياقة قائمة بأكمام قصيرة,fashion,noon,https://www.noon.com/egypt-en/black-shirring-drape-detailed-fitted-fitted-short-sleeve-stand-collar-stretch-knitted-blouse/Z2755DAFE7A69C3E1F26AZ/p/,,
+samsung-s26-ultra-256gb,Samsung Galaxy S26 Ultra 256GB Black,سامسونج جالاكسي S26 ألترا ٢٥٦ جيجا أسود,electronics,noon,https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/,https://s.noon.com/Zr0fOrOmu3E,
+iphone-17-256gb-blue,iPhone 17 256GB Mist Blue 5G,آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي,electronics,noon,https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/,,
+haier-50-qled-tv,Haier 50 inch 4K QLED Smart Google TV,شاشة هاير ٥٠ بوصة ٤K QLED سمارت,electronics,noon,https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/,,
+ps5-slim-disc,PlayStation 5 Slim Disc Version,بلايستيشن ٥ سليم ديسك,electronics,noon,https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/,,
