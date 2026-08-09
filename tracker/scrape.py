@@ -29,6 +29,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from fetchers import choose_route, fetch_with
+
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "tracker" / "products.csv"
 HISTORY = ROOT / "data" / "history.jsonl"
@@ -213,27 +215,9 @@ STRATEGIES = [
 # fetching
 # --------------------------------------------------------------------------
 
-def fetch(session, url, attempts=3):
-    last_error = None
-    for i in range(attempts):
-        try:
-            resp = session.get(url, headers=HEADERS, timeout=25)
-            if resp.status_code == 200:
-                return resp.text, None
-            last_error = f"http_{resp.status_code}"
-            if resp.status_code in (403, 429):
-                # bot protection -- back off harder
-                time.sleep(5 * (i + 1) + random.uniform(0, 3))
-                continue
-        except requests.RequestException as exc:
-            last_error = type(exc).__name__
-        time.sleep(2 * (i + 1) + random.uniform(0, 2))
-    return None, last_error or "unknown"
-
-
-def scrape_one(session, row, debug=False):
+def scrape_one(session, route_fn, row, debug=False):
     url = row["url"].strip()
-    html, error = fetch(session, url)
+    html, error = fetch_with(route_fn, session, url)
 
     record = {
         "sku_id": row["sku_id"].strip(),
@@ -311,10 +295,24 @@ def main():
             sys.exit(f"No product with sku_id '{args.only}'")
 
     session = requests.Session()
+
+    route_name, route_fn = choose_route(session, rows[0]["url"].strip())
+    if route_fn is None:
+        print(
+            "\nNo route reached noon. Nothing was recorded.\n"
+            "Fix: add a SCRAPER_API_KEY secret in GitHub\n"
+            "  (repo Settings > Secrets and variables > Actions > New repository secret).\n"
+            "Get a free key at scraperapi.com -- the free tier covers this workload.",
+            file=sys.stderr,
+        )
+        return 1
+    print()
+
     records, ok, failed = [], 0, 0
 
     for i, row in enumerate(rows, 1):
-        rec = scrape_one(session, row, debug=args.debug)
+        rec = scrape_one(session, route_fn, row, debug=args.debug)
+        rec["route"] = route_name
         records.append(rec)
         if rec["status"] == "ok":
             ok += 1
@@ -324,9 +322,9 @@ def main():
             flag = rec["status"] + (f" ({rec['note']})" if rec["note"] else "")
         print(f"[{i:>3}/{len(rows)}] {rec['sku_id']:<28} {str(rec['price'] or '-'):>12}  {rec['method'] or '-':<12} {flag}")
         if i < len(rows):
-            time.sleep(random.uniform(2.5, 6.0))  # be a polite visitor
+            time.sleep(random.uniform(1.5, 3.5))  # be a polite visitor
 
-    print(f"\nCaptured {ok} / {len(rows)}  ({failed} failed)")
+    print(f"\nCaptured {ok} / {len(rows)} via {route_name}  ({failed} failed)")
 
     if args.dry_run:
         print("dry run -- nothing written")
@@ -341,7 +339,7 @@ def main():
     # A run that captures almost nothing usually means you got blocked.
     # Fail loudly so the GitHub Actions email tells you.
     if ok == 0:
-        print("ERROR: zero prices captured -- you are probably being blocked.", file=sys.stderr)
+        print(f"ERROR: route '{route_name}' probed OK but captured nothing.", file=sys.stderr)
         return 1
     if failed > ok:
         print("WARNING: more failures than successes.", file=sys.stderr)
