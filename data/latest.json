@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-09T18:23:50+00:00",
+ "generated_at": "2026-08-09T18:35:27+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -10,9 +10,346 @@
   "lowest": 0,
   "real": 0,
   "small": 0,
-  "learning": 0,
+  "learning": 12,
   "fake": 0
  },
  "new_today": [],
- "deals": []
+ "deals": [
+  {
+   "sku_id": "black-tea-500g",
+   "name_en": "Black Tea 500g",
+   "name_ar": "شاي أسود ٥٠٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/black-tea-500g/Z381EC15AEC5299666293Z/p/",
+   "image": "",
+   "current_price": 120.0,
+   "baseline_price": 120.0,
+   "lowest_price": 120.0,
+   "highest_price": 120.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 120.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "dolce-gusto-espresso-16",
+   "name_en": "Dolce Gusto Espresso Buondi 16 Caps",
+   "name_ar": "دولشي غوستو إسبريسو بيوندي ١٦ كبسولة",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/dolce-gusto-espresso-buondi-16-capsules/Z6FD6714CF8C9657369D8Z/p/",
+   "image": "",
+   "current_price": 467.0,
+   "baseline_price": 467.0,
+   "lowest_price": 467.0,
+   "highest_price": 467.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 467.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "detergent-oriental-9kg",
+   "name_en": "Automatic Powder Detergent Oriental 9kg",
+   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
+   "image": "",
+   "current_price": 550.0,
+   "baseline_price": 550.0,
+   "lowest_price": 550.0,
+   "highest_price": 550.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 550.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "illy-espresso-250g",
+   "name_en": "Illy Classico Ground Espresso Coffee 250g",
+   "name_ar": "قهوة إيلي كلاسيكو مطحونة ٢٥٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/illy-classico-classic-roast-ground-espresso-coffee-250g/Z96F92206D45AA51F71D7Z/p/",
+   "image": "",
+   "current_price": 588.0,
+   "baseline_price": 588.0,
+   "lowest_price": 588.0,
+   "highest_price": 588.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 588.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "tomato-paste-2800g",
+   "name_en": "Tomato Paste 2800g",
+   "name_ar": "معجون طماطم ٢٨٠٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
+   "image": "",
+   "current_price": 254.0,
+   "baseline_price": 254.0,
+   "lowest_price": 254.0,
+   "highest_price": 254.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 254.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "women-blouse-longsleeve",
+   "name_en": "Women Blouse with Long Sleeves",
+   "name_ar": "بلوزة نسائية بأكمام طويلة",
+   "category": "fashion",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/women-blouse-with-long-sleeves/ZCDEB88BA5BACE03A1A14Z/p/",
+   "image": "",
+   "current_price": 289.0,
+   "baseline_price": 289.0,
+   "lowest_price": 289.0,
+   "highest_price": 289.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 289.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "khaki-linen-shirt",
+   "name_en": "Khaki Sleeveless Linen Look Shirt",
+   "name_ar": "قميص كتاني بيج بدون أكمام",
+   "category": "fashion",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/khaki-zero-sleeve-linen-look-regular-regular-pattern-woven-shirt/ZE474B7548537F4466EE8Z/p/",
+   "image": "",
+   "current_price": 391.0,
+   "baseline_price": 391.0,
+   "lowest_price": 391.0,
+   "highest_price": 391.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 391.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "black-knitted-blouse",
+   "name_en": "Black Shirring Fitted Short Sleeve Blouse",
+   "name_ar": "بلوزة سوداء بياقة قائمة بأكمام قصيرة",
+   "category": "fashion",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/black-shirring-drape-detailed-fitted-fitted-short-sleeve-stand-collar-stretch-knitted-blouse/Z2755DAFE7A69C3E1F26AZ/p/",
+   "image": "",
+   "current_price": 660.0,
+   "baseline_price": 660.0,
+   "lowest_price": 660.0,
+   "highest_price": 660.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 660.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "samsung-s26-ultra-256gb",
+   "name_en": "Samsung Galaxy S26 Ultra 256GB Black",
+   "name_ar": "سامسونج جالاكسي S26 ألترا ٢٥٦ جيجا أسود",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
+   "image": "",
+   "current_price": 69744.0,
+   "baseline_price": 69744.0,
+   "lowest_price": 69744.0,
+   "highest_price": 69744.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 69744.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "iphone-17-256gb-blue",
+   "name_en": "iPhone 17 256GB Mist Blue 5G",
+   "name_ar": "آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
+   "image": "",
+   "current_price": 65999.0,
+   "baseline_price": 65999.0,
+   "lowest_price": 65999.0,
+   "highest_price": 65999.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 65999.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "haier-50-qled-tv",
+   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
+   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
+   "image": "",
+   "current_price": 17350.0,
+   "baseline_price": 17350.0,
+   "lowest_price": 17350.0,
+   "highest_price": 17350.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 17350.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "ps5-slim-disc",
+   "name_en": "PlayStation 5 Slim Disc Version",
+   "name_ar": "بلايستيشن ٥ سليم ديسك",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
+   "image": "",
+   "current_price": 35799.0,
+   "baseline_price": 35799.0,
+   "lowest_price": 35799.0,
+   "highest_price": 35799.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-09",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 35799.0
+    }
+   ],
+   "is_new": false
+  }
+ ]
 }
