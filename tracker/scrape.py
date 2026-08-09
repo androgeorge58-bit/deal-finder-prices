@@ -26,10 +26,135 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+from urllib.parse import quote
+
 import requests
 from bs4 import BeautifulSoup
 
-from fetchers import choose_route, fetch_with
+# ---- fetch routes (inlined so there is no second file to install) ----
+
+TIMEOUT = 20          # a hung request costs 20s, not 25s x 3 = 75s
+ATTEMPTS = 2          # total failure across 12 products: ~3 min, not 19
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+    "Connection": "keep-alive",
+}
+
+
+# --------------------------------------------------------------------------
+# individual routes -- each returns page text or raises
+# --------------------------------------------------------------------------
+
+def _direct(session, url):
+    r = session.get(url, headers=HEADERS, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r.text
+
+
+def _reader(session, url):
+    # r.jina.ai returns the rendered page as clean text, prices included.
+    r = session.get(
+        "https://r.jina.ai/" + url,
+        headers={"User-Agent": HEADERS["User-Agent"], "Accept": "text/plain"},
+        timeout=TIMEOUT + 20,   # rendering takes longer than a raw fetch
+    )
+    r.raise_for_status()
+    return r.text
+
+
+def _scraperapi(session, url):
+    key = os.environ.get("SCRAPER_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("no_api_key")
+    r = session.get(
+        "https://api.scraperapi.com/",
+        params={"api_key": key, "url": url, "country_code": "eg"},
+        timeout=TIMEOUT + 40,
+    )
+    r.raise_for_status()
+    return r.text
+
+
+def _allorigins(session, url):
+    r = session.get(
+        "https://api.allorigins.win/raw?url=" + quote(url, safe=""),
+        headers={"User-Agent": HEADERS["User-Agent"]},
+        timeout=TIMEOUT + 20,
+    )
+    r.raise_for_status()
+    return r.text
+
+
+ROUTES = [
+    ("direct", _direct),
+    ("reader", _reader),
+    ("scraperapi", _scraperapi),
+    ("allorigins", _allorigins),
+]
+
+
+# --------------------------------------------------------------------------
+# probing
+# --------------------------------------------------------------------------
+
+def looks_like_a_product_page(text):
+    """Cheap sanity check -- did we get the page, or a block page?"""
+    if not text or len(text) < 500:
+        return False
+    low = text.lower()
+    if "captcha" in low or "access denied" in low or "are you a robot" in low:
+        return False
+    return any(m in low for m in ("egp", "ج.م", "__next_data__", "application/ld+json"))
+
+
+def choose_route(session, probe_url, log=print):
+    """
+    Try each route against one real product page. Return (name, fn) for the
+    first that comes back with something usable, or (None, None).
+    """
+    log("Probing routes to noon...")
+    for name, fn in ROUTES:
+        started = time.time()
+        try:
+            text = fn(session, probe_url)
+        except Exception as exc:
+            reason = type(exc).__name__
+            if str(exc) == "no_api_key":
+                reason = "skipped (no SCRAPER_API_KEY set)"
+            log(f"  {name:<12} {reason}")
+            continue
+        took = time.time() - started
+        if looks_like_a_product_page(text):
+            log(f"  {name:<12} OK  ({took:.1f}s, {len(text):,} chars)  <-- using this")
+            return name, fn
+        log(f"  {name:<12} responded but no price content ({len(text):,} chars)")
+    log("  no route reached noon")
+    return None, None
+
+
+def fetch_with(fn, session, url):
+    """Run one route with a couple of retries. Returns (text, error)."""
+    last = None
+    for i in range(ATTEMPTS):
+        try:
+            return fn(session, url), None
+        except requests.HTTPError as exc:
+            code = exc.response.status_code if exc.response is not None else "?"
+            last = f"http_{code}"
+            if code in (403, 429):
+                time.sleep(4 * (i + 1) + random.uniform(0, 2))
+                continue
+        except Exception as exc:
+            last = type(exc).__name__
+        time.sleep(1.5 * (i + 1) + random.uniform(0, 1))
+    return None, last or "unknown"
+
 
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "tracker" / "products.csv"
@@ -282,6 +407,7 @@ def load_products():
 
 
 def main():
+    print('Deal Finder price recorder starting', flush=True)
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="scrape a single sku_id")
     parser.add_argument("--debug", action="store_true", help="save fetched HTML to data/debug/")
