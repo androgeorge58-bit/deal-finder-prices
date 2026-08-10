@@ -50,8 +50,8 @@ jobs:
         run: |
           git config user.name  "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          touch data/pushed.json
-          git add data/history.jsonl data/latest.json data/pushed.json
+          touch data/pushed.json data/images.json
+          git add data/history.jsonl data/latest.json data/pushed.json data/images.json
           if git diff --staged --quiet; then
             echo "No price changes to commit."
           else
