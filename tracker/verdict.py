@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HISTORY = ROOT / "data" / "history.jsonl"
 PRODUCTS = ROOT / "tracker" / "products.csv"
 OUTPUT = ROOT / "data" / "latest.json"
+IMAGES = ROOT / "data" / "images.json"
 
 # Verdict thresholds
 # Two different knobs that are easy to confuse:
@@ -34,11 +35,22 @@ OUTPUT = ROOT / "data" / "latest.json"
 # For "6 months of price history", BASELINE_WINDOW is the one you want.
 MIN_DAYS = 14           # below this, no verdict is trustworthy
 BASELINE_WINDOW = 180   # six months of price memory
-REAL_DEAL_PCT = 15.0    # >= this much below baseline -> real deal
-SMALL_DROP_PCT = 5.0    # >= this much below baseline -> small drop
+REAL_DEAL_PCT = 10.0    # >= this much below baseline -> real deal
+# No middle tier. A price is either a genuine deal or it isn't -- a 7% dip
+# dressed up as "a small drop" is the sort of half-signal this app exists
+# to strip out.
 RAISE_LOOKBACK = 60     # days to search for a quiet pre-discount price hike
 RAISE_TRIGGER_PCT = 5.0 # a hike of at least this much counts as suspicious
 CHART_DAYS = 365        # a full year of chart, once you have it
+
+
+def load_images():
+    if not IMAGES.exists():
+        return {}
+    try:
+        return json.loads(IMAGES.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
 def load_products():
@@ -113,7 +125,7 @@ def detect_quiet_raise(points):
     return result
 
 
-def build(sku, by_date, meta):
+def build(sku, by_date, meta, images=None):
     points = daily_points(by_date)
     if not points:
         return None
@@ -142,10 +154,6 @@ def build(sku, by_date, meta):
         verdict, tone = "real", "jade"
         headline_en = f"Real deal — {delta_pct}% below its usual price"
         headline_ar = f"خصم حقيقي — أقل بـ {delta_pct}% من سعره المعتاد"
-    elif delta_pct >= SMALL_DROP_PCT:
-        verdict, tone = "small", "ink"
-        headline_en = f"Small drop — {delta_pct}% below usual"
-        headline_ar = f"انخفاض بسيط — أقل بـ {delta_pct}% من المعتاد"
     else:
         verdict, tone = "fake", "red"
         if quiet_raise:
@@ -164,7 +172,7 @@ def build(sku, by_date, meta):
         "retailer": info.get("retailer", ""),
         "url": info.get("url", ""),
         "affiliate_url": info.get("affiliate_url", ""),
-        "image": info.get("image", ""),
+        "image": (images or {}).get(sku) or info.get("image", ""),
         "current_price": current,
         "baseline_price": baseline,
         "lowest_price": lowest,
@@ -195,9 +203,10 @@ def previous_verdicts():
 def main():
     meta = load_products()
     series = load_history()
+    images = load_images()
     before = previous_verdicts()
 
-    deals = [d for sku, by_date in series.items() if (d := build(sku, by_date, meta))]
+    deals = [d for sku, by_date in series.items() if (d := build(sku, by_date, meta, images))]
 
     # A deal is "new" the first run it crosses into jade. This is the trigger
     # the app watches to notify people who have the item on their wishlist --
@@ -206,7 +215,7 @@ def main():
         was = before.get(d["sku_id"])
         d["is_new"] = d["verdict"] in ("lowest", "real") and was not in ("lowest", "real")
 
-    order = {"lowest": 0, "real": 1, "small": 2, "learning": 3, "fake": 4}
+    order = {"lowest": 0, "real": 1, "learning": 2, "fake": 3}
     deals.sort(key=lambda d: (order.get(d["verdict"], 9), -d["delta_pct"]))
 
     payload = {
@@ -215,11 +224,10 @@ def main():
         "thresholds": {
             "min_days": MIN_DAYS,
             "real_deal_pct": REAL_DEAL_PCT,
-            "small_drop_pct": SMALL_DROP_PCT,
         },
         "counts": {
             v: sum(1 for d in deals if d["verdict"] == v)
-            for v in ("lowest", "real", "small", "learning", "fake")
+            for v in ("lowest", "real", "learning", "fake")
         },
         "new_today": [d["sku_id"] for d in deals if d["is_new"]],
         "deals": deals,
@@ -230,7 +238,7 @@ def main():
 
     c = payload["counts"]
     print(f"Wrote {OUTPUT.relative_to(ROOT)} — {len(deals)} products")
-    print(f"  lowest {c['lowest']} | real {c['real']} | small {c['small']} | learning {c['learning']} | not-a-deal {c['fake']}")
+    print(f"  lowest {c['lowest']} | real {c['real']} | learning {c['learning']} | not-a-deal {c['fake']}")
     if payload["new_today"]:
         print(f"  NEW deals this run: {', '.join(payload['new_today'])}")
     if c["learning"] == len(deals) and deals:
