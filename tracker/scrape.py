@@ -159,6 +159,7 @@ def fetch_with(fn, session, url):
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "tracker" / "products.csv"
 HISTORY = ROOT / "data" / "history.jsonl"
+IMAGES = ROOT / "data" / "images.json"
 DEBUG_DIR = ROOT / "data" / "debug"
 
 # A price below this is almost certainly a shipping fee, a monthly instalment,
@@ -337,6 +338,38 @@ STRATEGIES = [
 
 
 # --------------------------------------------------------------------------
+# product photo
+# --------------------------------------------------------------------------
+
+def extract_image(soup, html):
+    """og:image first (most stable), then JSON-LD, then the first big <img>."""
+    tag = soup.find("meta", attrs={"property": "og:image"}) or \
+          soup.find("meta", attrs={"name": "og:image"})
+    if tag and tag.get("content", "").startswith("http"):
+        return tag["content"]
+
+    for t in soup.find_all("script", type="application/ld+json"):
+        try:
+            blob = json.loads(t.string or "")
+        except (json.JSONDecodeError, TypeError):
+            continue
+        for node in blob if isinstance(blob, list) else [blob]:
+            if not isinstance(node, dict):
+                continue
+            img = node.get("image")
+            if isinstance(img, list) and img:
+                img = img[0]
+            if isinstance(img, str) and img.startswith("http"):
+                return img
+
+    for im in soup.find_all("img"):
+        src = im.get("src") or im.get("data-src") or ""
+        if src.startswith("http") and not any(x in src.lower() for x in ("logo", "icon", "sprite", "banner")):
+            return src
+    return ""
+
+
+# --------------------------------------------------------------------------
 # fetching
 # --------------------------------------------------------------------------
 
@@ -351,6 +384,7 @@ def scrape_one(session, route_fn, row, debug=False):
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "price": None,
         "currency": "EGP",
+        "image": "",
         "method": None,
         "status": "error",
         "note": error,
@@ -382,6 +416,7 @@ def scrape_one(session, route_fn, row, debug=False):
         if price:
             record.update(
                 price=round(price, 2),
+                image=extract_image(soup, html),
                 method=name,
                 status="out_of_stock" if out_of_stock else "ok",
                 note=None,
@@ -460,7 +495,22 @@ def main():
     with HISTORY.open("a", encoding="utf-8") as fh:
         for rec in records:
             if rec["price"] is not None:
-                fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                slim = {k: v for k, v in rec.items() if k != "image"}
+                fh.write(json.dumps(slim, ensure_ascii=False) + "\n")
+
+    # Photos live in their own small file, refreshed each run, so history.jsonl
+    # stays lean -- it gets one line per product per day forever.
+    imgs = {}
+    if IMAGES.exists():
+        try:
+            imgs = json.loads(IMAGES.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            imgs = {}
+    for rec in records:
+        if rec.get("image"):
+            imgs[rec["sku_id"]] = rec["image"]
+    IMAGES.write_text(json.dumps(imgs, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"photos on file: {len(imgs)}")
 
     # A run that captures almost nothing usually means you got blocked.
     # Fail loudly so the GitHub Actions email tells you.
