@@ -1,15 +1,13 @@
 {
- "generated_at": "2026-08-10T22:03:38+00:00",
+ "generated_at": "2026-08-10T22:32:07+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
-  "real_deal_pct": 15.0,
-  "small_drop_pct": 5.0
+  "real_deal_pct": 10.0
  },
  "counts": {
   "lowest": 0,
   "real": 0,
-  "small": 0,
   "learning": 21,
   "fake": 0
  },
@@ -379,39 +377,6 @@
    "is_new": false
   },
   {
-   "sku_id": "ps5-slim-disc",
-   "name_en": "PlayStation 5 Slim Disc Version",
-   "name_ar": "بلايستيشن ٥ سليم ديسك",
-   "category": "electronics",
-   "retailer": "noon",
-   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
-   "affiliate_url": "",
-   "image": "",
-   "current_price": 35799.0,
-   "baseline_price": 35799.0,
-   "lowest_price": 35799.0,
-   "highest_price": 35799.0,
-   "delta_pct": 0.0,
-   "days_tracked": 2,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
-   "quiet_raise": null,
-   "last_seen": "2026-08-10",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 35799.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 35799.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "mens-deo-dark-wood-50ml",
    "name_en": "Men Deep Black Carbon Antiperspirant Roll-On 50ml",
    "name_ar": "مزيل عرق رجالي ديب بلاك كاربون ٥٠ مل",
@@ -668,6 +633,39 @@
     {
      "date": "2026-08-10",
      "price": 140.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "ps5-slim-disc",
+   "name_en": "PlayStation 5 Slim Disc Version",
+   "name_ar": "بلايستيشن ٥ سليم ديسك",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
+   "affiliate_url": "",
+   "image": "",
+   "current_price": 38032.35,
+   "baseline_price": 35799.0,
+   "lowest_price": 35799.0,
+   "highest_price": 38032.35,
+   "delta_pct": -6.2,
+   "days_tracked": 2,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 35799.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 38032.35
     }
    ],
    "is_new": false
