@@ -26,13 +26,19 @@ PRODUCTS = ROOT / "tracker" / "products.csv"
 OUTPUT = ROOT / "data" / "latest.json"
 
 # Verdict thresholds
+# Two different knobs that are easy to confuse:
+#   MIN_DAYS        how long before ANY verdict is shown. Raise this and the app
+#                   shows nothing but grey stamps until the clock runs out.
+#   BASELINE_WINDOW how much price memory forms the "usual" price. Raise this and
+#                   verdicts get SMARTER, with no blackout period.
+# For "6 months of price history", BASELINE_WINDOW is the one you want.
 MIN_DAYS = 14           # below this, no verdict is trustworthy
-BASELINE_WINDOW = 90    # days of history that form the "usual" price
+BASELINE_WINDOW = 180   # six months of price memory
 REAL_DEAL_PCT = 15.0    # >= this much below baseline -> real deal
 SMALL_DROP_PCT = 5.0    # >= this much below baseline -> small drop
 RAISE_LOOKBACK = 60     # days to search for a quiet pre-discount price hike
 RAISE_TRIGGER_PCT = 5.0 # a hike of at least this much counts as suspicious
-CHART_DAYS = 180        # how much history to ship to the app
+CHART_DAYS = 365        # a full year of chart, once you have it
 
 
 def load_products():
@@ -157,6 +163,7 @@ def build(sku, by_date, meta):
         "category": info.get("category", "other"),
         "retailer": info.get("retailer", ""),
         "url": info.get("url", ""),
+        "affiliate_url": info.get("affiliate_url", ""),
         "image": info.get("image", ""),
         "current_price": current,
         "baseline_price": baseline,
