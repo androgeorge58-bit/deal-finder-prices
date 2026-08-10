@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-09T18:35:27+00:00",
+ "generated_at": "2026-08-10T09:05:35+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -10,7 +10,7 @@
   "lowest": 0,
   "real": 0,
   "small": 0,
-  "learning": 12,
+  "learning": 21,
   "fake": 0
  },
  "new_today": [],
@@ -28,16 +28,20 @@
    "lowest_price": 120.0,
    "highest_price": 120.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 120.0
     }
    ],
@@ -56,16 +60,20 @@
    "lowest_price": 467.0,
    "highest_price": 467.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 467.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 467.0
     }
    ],
@@ -84,16 +92,20 @@
    "lowest_price": 550.0,
    "highest_price": 550.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 550.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 550.0
     }
    ],
@@ -112,16 +124,20 @@
    "lowest_price": 588.0,
    "highest_price": 588.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 588.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 588.0
     }
    ],
@@ -140,16 +156,20 @@
    "lowest_price": 254.0,
    "highest_price": 254.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 254.0
     }
    ],
@@ -168,16 +188,20 @@
    "lowest_price": 289.0,
    "highest_price": 289.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 289.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 289.0
     }
    ],
@@ -196,16 +220,20 @@
    "lowest_price": 391.0,
    "highest_price": 391.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 391.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 391.0
     }
    ],
@@ -224,16 +252,20 @@
    "lowest_price": 660.0,
    "highest_price": 660.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 660.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 660.0
     }
    ],
@@ -252,16 +284,20 @@
    "lowest_price": 69744.0,
    "highest_price": 69744.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 69744.0
     }
    ],
@@ -280,16 +316,20 @@
    "lowest_price": 65999.0,
    "highest_price": 65999.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 65999.0
     }
    ],
@@ -308,16 +348,20 @@
    "lowest_price": 17350.0,
    "highest_price": 17350.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
      "date": "2026-08-09",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-10",
      "price": 17350.0
     }
    ],
@@ -336,17 +380,273 @@
    "lowest_price": 35799.0,
    "highest_price": 35799.0,
    "delta_pct": 0.0,
+   "days_tracked": 2,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 35799.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 35799.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mens-deo-dark-wood-50ml",
+   "name_en": "Men Deep Black Carbon Antiperspirant Roll-On 50ml",
+   "name_ar": "مزيل عرق رجالي ديب بلاك كاربون ٥٠ مل",
+   "category": "supermarket",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/men-deep-black-carbon-dark-wood-antiperspirant-antibacterial-roll-on-dark-wood-50ml/N15767861A/p/",
+   "image": "",
+   "current_price": 72.68,
+   "baseline_price": 72.68,
+   "lowest_price": 72.68,
+   "highest_price": 72.68,
+   "delta_pct": 0.0,
    "days_tracked": 1,
    "verdict": "learning",
    "tone": "neutral",
    "headline_en": "Still learning this price (1/14 days)",
    "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-10",
    "history": [
     {
-     "date": "2026-08-09",
-     "price": 35799.0
+     "date": "2026-08-10",
+     "price": 72.68
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "image": "",
+   "current_price": 6204.35,
+   "baseline_price": 6204.35,
+   "lowest_price": 6204.35,
+   "highest_price": 6204.35,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "buzz-lightyear-figure-12in",
+   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
+   "name_ar": "باز لايت يير حركي ١٢ بوصة",
+   "category": "toys",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
+   "image": "",
+   "current_price": 450.0,
+   "baseline_price": 450.0,
+   "lowest_price": 450.0,
+   "highest_price": 450.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 450.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "hair-beader-2in1",
+   "name_en": "2-in-1 Double the Fun Hair Beader",
+   "name_ar": "جهاز تضفير الشعر ٢ في ١",
+   "category": "beauty",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
+   "image": "",
+   "current_price": 337.15,
+   "baseline_price": 337.15,
+   "lowest_price": 337.15,
+   "highest_price": 337.15,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 337.15
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "bits-keys-set-219pc",
+   "name_en": "219-Piece Bits and Keys Set",
+   "name_ar": "طقم مفكات ومفاتيح ٢١٩ قطعة",
+   "category": "tools",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/219-piece-bits-and-keys-set/N39672695A/p/",
+   "image": "",
+   "current_price": 5990.0,
+   "baseline_price": 5990.0,
+   "lowest_price": 5990.0,
+   "highest_price": 5990.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 5990.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mini-stepper-ceramic",
+   "name_en": "Ceramic Mini Stepper Steel",
+   "name_ar": "ستيبر ميني ستانلس",
+   "category": "sports",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
+   "image": "",
+   "current_price": 1999.0,
+   "baseline_price": 1999.0,
+   "lowest_price": 1999.0,
+   "highest_price": 1999.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 1999.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mg63-home-gym-73kg",
+   "name_en": "MG63 Home Gym Single Station 73kg Weights",
+   "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
+   "category": "sports",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/mg63-multifunctional-comprehensive-training-equipment-home-gym-single-station-73kg-weights/ZDE104DD0C7C0B27E9637Z/p/",
+   "image": "",
+   "current_price": 25600.0,
+   "baseline_price": 25600.0,
+   "lowest_price": 25600.0,
+   "highest_price": 25600.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 25600.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "accuchek-strips-50",
+   "name_en": "Accu-Chek Instant Blood Glucose 50 Test Strips",
+   "name_ar": "شرائط قياس السكر أكيوتشيك إنستانت ٥٠ شريط",
+   "category": "health",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/accu-chek-instant-blood-glucose-50-test-strips/N20894246A/p/",
+   "image": "",
+   "current_price": 640.0,
+   "baseline_price": 640.0,
+   "lowest_price": 640.0,
+   "highest_price": 640.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 640.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "executive-leather-notebook",
+   "name_en": "Executive Leather Notebook",
+   "name_ar": "نوتبوك جلد تنفيذي",
+   "category": "stationery",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/executive-leather-notebook/Z08DCADD21C9D9FD8F9DFZ/p/",
+   "image": "",
+   "current_price": 140.0,
+   "baseline_price": 140.0,
+   "lowest_price": 140.0,
+   "highest_price": 140.0,
+   "delta_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (1/14 days)",
+   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-10",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 140.0
     }
    ],
    "is_new": false
