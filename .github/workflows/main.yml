@@ -4,7 +4,6 @@ on:
   schedule:
     # 06:00 and 18:00 Cairo time (UTC+2 winter / UTC+3 summer -- close enough)
     - cron: "0 4 * * *"
-    - cron: "0 16 * * *"
   workflow_dispatch: {}   # lets you press "Run workflow" manually in the UI
 
 permissions:
@@ -39,12 +38,19 @@ jobs:
         if: always()
         run: python tracker/verdict.py
 
+      - name: Send push notifications
+        if: always()
+        env:
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: python tracker/notify.py
+
       - name: Commit today's snapshot
         if: always()
         run: |
           git config user.name  "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          git add data/history.jsonl data/latest.json
+          git add data/history.jsonl data/latest.json data/pushed.json
           if git diff --staged --quiet; then
             echo "No price changes to commit."
           else
