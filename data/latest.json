@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T22:50:27+00:00",
+ "generated_at": "2026-08-11T08:23:04+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -23,17 +23,17 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
    "current_price": 529.95,
-   "baseline_price": 550.0,
+   "baseline_price": 539.98,
    "lowest_price": 529.95,
    "highest_price": 550.0,
-   "delta_pct": 3.6,
-   "days_tracked": 2,
+   "delta_pct": 1.9,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -41,6 +41,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 529.95
+    },
+    {
+     "date": "2026-08-11",
      "price": 529.95
     }
    ],
@@ -60,13 +64,13 @@
    "lowest_price": 120.0,
    "highest_price": 120.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -74,6 +78,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 120.0
     }
    ],
@@ -93,13 +101,13 @@
    "lowest_price": 467.0,
    "highest_price": 467.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -107,6 +115,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 467.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 467.0
     }
    ],
@@ -126,13 +138,13 @@
    "lowest_price": 588.0,
    "highest_price": 588.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -140,6 +152,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 588.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 588.0
     }
    ],
@@ -159,13 +175,13 @@
    "lowest_price": 254.0,
    "highest_price": 254.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -173,6 +189,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 254.0
     }
    ],
@@ -192,13 +212,13 @@
    "lowest_price": 289.0,
    "highest_price": 289.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -206,6 +226,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 289.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 289.0
     }
    ],
@@ -258,13 +282,13 @@
    "lowest_price": 660.0,
    "highest_price": 660.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -272,6 +296,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 660.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 660.0
     }
    ],
@@ -291,13 +319,13 @@
    "lowest_price": 69744.0,
    "highest_price": 69744.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -305,6 +333,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 69744.0
     }
    ],
@@ -324,13 +356,13 @@
    "lowest_price": 65999.0,
    "highest_price": 65999.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -338,6 +370,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 65999.0
     }
    ],
@@ -357,13 +393,13 @@
    "lowest_price": 17350.0,
    "highest_price": 17350.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -371,6 +407,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 17350.0
     }
    ],
@@ -390,46 +430,21 @@
    "lowest_price": 72.68,
    "highest_price": 72.68,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
      "price": 72.68
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "airfryer-xl-6-2l",
-   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
-   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
-   "category": "electronics",
-   "retailer": "noon",
-   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
-   "current_price": 6204.35,
-   "baseline_price": 6204.35,
-   "lowest_price": 6204.35,
-   "highest_price": 6204.35,
-   "delta_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
-   "quiet_raise": null,
-   "last_seen": "2026-08-10",
-   "history": [
+    },
     {
-     "date": "2026-08-10",
-     "price": 6204.35
+     "date": "2026-08-11",
+     "price": 72.68
     }
    ],
    "is_new": false
@@ -448,16 +463,20 @@
    "lowest_price": 450.0,
    "highest_price": 450.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 450.0
     }
    ],
@@ -472,22 +491,26 @@
    "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
-   "current_price": 337.15,
+   "current_price": 337.1,
    "baseline_price": 337.15,
-   "lowest_price": 337.15,
+   "lowest_price": 337.1,
    "highest_price": 337.15,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
      "price": 337.15
+    },
+    {
+     "date": "2026-08-11",
+     "price": 337.1
     }
    ],
    "is_new": false
@@ -506,16 +529,20 @@
    "lowest_price": 5990.0,
    "highest_price": 5990.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
+     "price": 5990.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 5990.0
     }
    ],
@@ -535,16 +562,20 @@
    "lowest_price": 1999.0,
    "highest_price": 1999.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 1999.0
     }
    ],
@@ -564,16 +595,20 @@
    "lowest_price": 25600.0,
    "highest_price": 25600.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 25600.0
     }
    ],
@@ -593,16 +628,20 @@
    "lowest_price": 640.0,
    "highest_price": 640.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-11",
      "price": 640.0
     }
    ],
@@ -622,17 +661,54 @@
    "lowest_price": 140.0,
    "highest_price": 140.0,
    "delta_pct": 0.0,
-   "days_tracked": 1,
+   "days_tracked": 2,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (1/14 days)",
-   "headline_ar": "لسه بنتابع السعر (1/14 يوم)",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-10",
      "price": 140.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 140.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 6279.0,
+   "baseline_price": 6204.35,
+   "lowest_price": 6204.35,
+   "highest_price": 6279.0,
+   "delta_pct": -1.2,
+   "days_tracked": 2,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (2/14 days)",
+   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-11",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
     }
    ],
    "is_new": false
@@ -647,17 +723,17 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
    "current_price": 40265.7,
-   "baseline_price": 35799.0,
+   "baseline_price": 38032.35,
    "lowest_price": 35799.0,
    "highest_price": 40265.7,
-   "delta_pct": -12.5,
-   "days_tracked": 2,
+   "delta_pct": -5.9,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "history": [
     {
      "date": "2026-08-09",
@@ -665,6 +741,10 @@
     },
     {
      "date": "2026-08-10",
+     "price": 40265.7
+    },
+    {
+     "date": "2026-08-11",
      "price": 40265.7
     }
    ],
