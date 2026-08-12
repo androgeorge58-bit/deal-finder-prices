@@ -16,7 +16,7 @@ concurrency:
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v4
@@ -29,10 +29,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Capture prices
+      - name: Harvest catalogue pages
         env:
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
-        run: python tracker/scrape.py
+        run: python tracker/harvest.py
+
+      - name: Capture hand-picked products
+        if: always()
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: python tracker/scrape.py || echo "watchlist scrape skipped"
+
+      - name: Compact history
+        if: always()
+        run: python tracker/compact.py
 
       - name: Recompute verdicts
         if: always()
@@ -50,8 +60,8 @@ jobs:
         run: |
           git config user.name  "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          touch data/pushed.json data/images.json
-          git add data/history.jsonl data/latest.json data/pushed.json data/images.json
+          touch data/pushed.json data/images.json data/catalog.json
+          git add data/history.jsonl data/latest.json data/pushed.json data/images.json data/catalog.json
           if git diff --staged --quiet; then
             echo "No price changes to commit."
           else
