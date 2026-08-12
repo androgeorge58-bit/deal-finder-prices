@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T08:23:04+00:00",
+ "generated_at": "2026-08-12T08:54:52+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -22,18 +22,18 @@
    "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
-   "current_price": 529.95,
-   "baseline_price": 539.98,
-   "lowest_price": 529.95,
+   "current_price": 515.0,
+   "baseline_price": 536.63,
+   "lowest_price": 515.0,
    "highest_price": 550.0,
-   "delta_pct": 1.9,
-   "days_tracked": 3,
+   "delta_pct": 4.0,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -46,6 +46,51 @@
     {
      "date": "2026-08-11",
      "price": 529.95
+    },
+    {
+     "date": "2026-08-12",
+     "price": 515.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "haier-50-qled-tv",
+   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
+   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
+   "current_price": 17100.0,
+   "baseline_price": 17350.0,
+   "lowest_price": 17100.0,
+   "highest_price": 17350.0,
+   "delta_pct": 1.4,
+   "days_tracked": 4,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-12",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 17100.0
     }
    ],
    "is_new": false
@@ -64,13 +109,13 @@
    "lowest_price": 120.0,
    "highest_price": 120.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -82,6 +127,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 120.0
     }
    ],
@@ -101,13 +150,13 @@
    "lowest_price": 467.0,
    "highest_price": 467.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -119,6 +168,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 467.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 467.0
     }
    ],
@@ -138,13 +191,13 @@
    "lowest_price": 588.0,
    "highest_price": 588.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -156,6 +209,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 588.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 588.0
     }
    ],
@@ -175,13 +232,13 @@
    "lowest_price": 254.0,
    "highest_price": 254.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -193,6 +250,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 254.0
     }
    ],
@@ -212,13 +273,13 @@
    "lowest_price": 289.0,
    "highest_price": 289.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -230,6 +291,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 289.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 289.0
     }
    ],
@@ -282,13 +347,13 @@
    "lowest_price": 660.0,
    "highest_price": 660.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -300,6 +365,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 660.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 660.0
     }
    ],
@@ -319,13 +388,13 @@
    "lowest_price": 69744.0,
    "highest_price": 69744.0,
    "delta_pct": 0.0,
-   "days_tracked": 3,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -338,80 +407,10 @@
     {
      "date": "2026-08-11",
      "price": 69744.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "iphone-17-256gb-blue",
-   "name_en": "iPhone 17 256GB Mist Blue 5G",
-   "name_ar": "آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي",
-   "category": "electronics",
-   "retailer": "noon",
-   "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z7A646C2F0BD6F44C4760Z/45/_/1779094409/67747d93-e720-4432-9240-e44b32deefbf.jpg?width=1200",
-   "current_price": 65999.0,
-   "baseline_price": 65999.0,
-   "lowest_price": 65999.0,
-   "highest_price": 65999.0,
-   "delta_pct": 0.0,
-   "days_tracked": 3,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
-   "quiet_raise": null,
-   "last_seen": "2026-08-11",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 65999.0
     },
     {
-     "date": "2026-08-10",
-     "price": 65999.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 65999.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "haier-50-qled-tv",
-   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
-   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
-   "category": "electronics",
-   "retailer": "noon",
-   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
-   "current_price": 17350.0,
-   "baseline_price": 17350.0,
-   "lowest_price": 17350.0,
-   "highest_price": 17350.0,
-   "delta_pct": 0.0,
-   "days_tracked": 3,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
-   "quiet_raise": null,
-   "last_seen": "2026-08-11",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 17350.0
+     "date": "2026-08-12",
+     "price": 69744.0
     }
    ],
    "is_new": false
@@ -430,13 +429,13 @@
    "lowest_price": 72.68,
    "highest_price": 72.68,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -444,6 +443,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 72.68
+    },
+    {
+     "date": "2026-08-12",
      "price": 72.68
     }
    ],
@@ -463,13 +466,13 @@
    "lowest_price": 450.0,
    "highest_price": 450.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -478,39 +481,10 @@
     {
      "date": "2026-08-11",
      "price": 450.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "hair-beader-2in1",
-   "name_en": "2-in-1 Double the Fun Hair Beader",
-   "name_ar": "جهاز تضفير الشعر ٢ في ١",
-   "category": "beauty",
-   "retailer": "noon",
-   "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
-   "current_price": 337.1,
-   "baseline_price": 337.15,
-   "lowest_price": 337.1,
-   "highest_price": 337.15,
-   "delta_pct": 0.0,
-   "days_tracked": 2,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
-   "quiet_raise": null,
-   "last_seen": "2026-08-11",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 337.15
     },
     {
-     "date": "2026-08-11",
-     "price": 337.1
+     "date": "2026-08-12",
+     "price": 450.0
     }
    ],
    "is_new": false
@@ -529,13 +503,13 @@
    "lowest_price": 5990.0,
    "highest_price": 5990.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -543,6 +517,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 5990.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 5990.0
     }
    ],
@@ -562,13 +540,13 @@
    "lowest_price": 1999.0,
    "highest_price": 1999.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -576,6 +554,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 1999.0
     }
    ],
@@ -595,13 +577,13 @@
    "lowest_price": 25600.0,
    "highest_price": 25600.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -609,6 +591,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 25600.0
     }
    ],
@@ -628,13 +614,13 @@
    "lowest_price": 640.0,
    "highest_price": 640.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -642,6 +628,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 640.0
     }
    ],
@@ -661,13 +651,13 @@
    "lowest_price": 140.0,
    "highest_price": 140.0,
    "delta_pct": 0.0,
-   "days_tracked": 2,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -675,6 +665,10 @@
     },
     {
      "date": "2026-08-11",
+     "price": 140.0
+    },
+    {
+     "date": "2026-08-12",
      "price": 140.0
     }
    ],
@@ -690,17 +684,17 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
    "current_price": 6279.0,
-   "baseline_price": 6204.35,
+   "baseline_price": 6241.68,
    "lowest_price": 6204.35,
    "highest_price": 6279.0,
-   "delta_pct": -1.2,
-   "days_tracked": 2,
+   "delta_pct": -0.6,
+   "days_tracked": 3,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (2/14 days)",
-   "headline_ar": "لسه بنتابع السعر (2/14 يوم)",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-10",
@@ -709,6 +703,51 @@
     {
      "date": "2026-08-11",
      "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "iphone-17-256gb-blue",
+   "name_en": "iPhone 17 256GB Mist Blue 5G",
+   "name_ar": "آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي",
+   "category": "electronics",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z7A646C2F0BD6F44C4760Z/45/_/1779094409/67747d93-e720-4432-9240-e44b32deefbf.jpg?width=1200",
+   "current_price": 67000.0,
+   "baseline_price": 65999.0,
+   "lowest_price": 65999.0,
+   "highest_price": 67000.0,
+   "delta_pct": -1.5,
+   "days_tracked": 4,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-12",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 67000.0
     }
    ],
    "is_new": false
@@ -723,17 +762,17 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
    "current_price": 40265.7,
-   "baseline_price": 38032.35,
+   "baseline_price": 38776.8,
    "lowest_price": 35799.0,
    "highest_price": 40265.7,
-   "delta_pct": -5.9,
-   "days_tracked": 3,
+   "delta_pct": -3.8,
+   "days_tracked": 4,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Still learning this price (3/14 days)",
-   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "headline_en": "Still learning this price (4/14 days)",
+   "headline_ar": "لسه بنتابع السعر (4/14 يوم)",
    "quiet_raise": null,
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "history": [
     {
      "date": "2026-08-09",
@@ -746,6 +785,47 @@
     {
      "date": "2026-08-11",
      "price": 40265.7
+    },
+    {
+     "date": "2026-08-12",
+     "price": 40265.7
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "hair-beader-2in1",
+   "name_en": "2-in-1 Double the Fun Hair Beader",
+   "name_ar": "جهاز تضفير الشعر ٢ في ١",
+   "category": "beauty",
+   "retailer": "noon",
+   "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
+   "current_price": 425.0,
+   "baseline_price": 337.12,
+   "lowest_price": 337.1,
+   "highest_price": 425.0,
+   "delta_pct": -26.1,
+   "days_tracked": 3,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Still learning this price (3/14 days)",
+   "headline_ar": "لسه بنتابع السعر (3/14 يوم)",
+   "quiet_raise": null,
+   "last_seen": "2026-08-12",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 337.15
+    },
+    {
+     "date": "2026-08-11",
+     "price": 337.1
+    },
+    {
+     "date": "2026-08-12",
+     "price": 425.0
     }
    ],
    "is_new": false
