@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T19:54:50+00:00",
+ "generated_at": "2026-08-16T20:08:37+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -13,28 +13,7 @@
   "learning": 380,
   "fake": 0
  },
- "new_today": [
-  "noon-z2913c71aa9a381535495z",
-  "noon-n20426193a",
-  "noon-n43324935a",
-  "noon-n15686911a",
-  "noon-n70025084v",
-  "noon-zecb1b2b267a0b4959ad3z",
-  "jumia-77255857",
-  "noon-n47742834a",
-  "noon-n70102561v",
-  "noon-n43699531a",
-  "noon-n43973548a",
-  "noon-n70016911v",
-  "noon-z71f173c16de73ef4dc3cz",
-  "noon-z8f74d77cf7bf3ca3638bz",
-  "noon-n70109322v",
-  "noon-n70182504v",
-  "jumia-134487930",
-  "noon-n45731384a",
-  "noon-n16565689a",
-  "noon-n70284978v"
- ],
+ "new_today": [],
  "deals": [
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
@@ -82,7 +61,7 @@
      "price": 27.78
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n20426193a",
@@ -130,7 +109,7 @@
      "price": 177.6
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n43324935a",
@@ -178,7 +157,7 @@
      "price": 70.05
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n15686911a",
@@ -226,7 +205,7 @@
      "price": 92.4
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70025084v",
@@ -274,7 +253,7 @@
      "price": 767.2
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-zecb1b2b267a0b4959ad3z",
@@ -314,7 +293,7 @@
      "price": 180.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "jumia-77255857",
@@ -362,7 +341,7 @@
      "price": 199.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n47742834a",
@@ -410,7 +389,7 @@
      "price": 68.2
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70102561v",
@@ -450,7 +429,7 @@
      "price": 593.65
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n43699531a",
@@ -498,7 +477,7 @@
      "price": 2342.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n43973548a",
@@ -546,7 +525,7 @@
      "price": 715.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70016911v",
@@ -594,7 +573,7 @@
      "price": 210.2
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-z71f173c16de73ef4dc3cz",
@@ -642,7 +621,7 @@
      "price": 385.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-z8f74d77cf7bf3ca3638bz",
@@ -690,7 +669,7 @@
      "price": 385.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70109322v",
@@ -738,7 +717,7 @@
      "price": 1599.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70182504v",
@@ -782,7 +761,7 @@
      "price": 62800.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "jumia-134487930",
@@ -826,7 +805,7 @@
      "price": 490.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n45731384a",
@@ -874,7 +853,7 @@
      "price": 1870.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n16565689a",
@@ -922,7 +901,7 @@
      "price": 248.35
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70284978v",
@@ -970,7 +949,7 @@
      "price": 1428.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n33440980a",
