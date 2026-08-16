@@ -21,6 +21,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+latest_capture = {}
 HISTORY = ROOT / "data" / "history.jsonl"
 PRODUCTS = ROOT / "tracker" / "products.csv"
 OUTPUT = ROOT / "data" / "latest.json"
@@ -34,7 +35,8 @@ CATALOG = ROOT / "data" / "catalog.json"
 #   BASELINE_WINDOW how much price memory forms the "usual" price. Raise this and
 #                   verdicts get SMARTER, with no blackout period.
 # For "6 months of price history", BASELINE_WINDOW is the one you want.
-MIN_DAYS = 14           # below this, no verdict is trustworthy
+MIN_DAYS = 14           # below this we cannot claim "lowest ever"
+MIN_DAYS_OBSERVED = 3   # ...but a fall we WATCHED needs far less proof
 BASELINE_WINDOW = 180   # six months of price memory
 REAL_DEAL_PCT = 10.0    # >= this much below baseline -> real deal
 # No middle tier. A price is either a genuine deal or it isn't -- a 7% dip
@@ -82,7 +84,8 @@ def load_products():
 
 
 def load_history():
-    series = defaultdict(dict)  # sku -> {date: [prices]}
+    series = defaultdict(dict)
+    globals()["latest_capture"] = {}  # sku -> {date: [prices]}
     if not HISTORY.exists():
         return series
     with HISTORY.open(encoding="utf-8") as fh:
@@ -97,6 +100,9 @@ def load_history():
             if rec.get("price") is None or rec.get("status") != "ok":
                 continue
             series[rec["sku_id"]].setdefault(rec["date"], []).append(rec["price"])
+            ts = rec.get("captured_at")
+            if ts and ts > latest_capture.get(rec["sku_id"], ""):
+                latest_capture[rec["sku_id"]] = ts
     return series
 
 
@@ -167,7 +173,7 @@ def detect_quiet_raise(points):
     return result
 
 
-def build(sku, by_date, meta, images=None):
+def build(sku, by_date, meta, images=None, last_capture=None):
     points = daily_points(by_date)
     if not points:
         return None
@@ -185,7 +191,22 @@ def build(sku, by_date, meta, images=None):
     quiet_raise = detect_quiet_raise(points)
     info = meta.get(sku, {})
 
-    if days_tracked < MIN_DAYS:
+    # A fall we watched happen inside our own window is evidence, not a guess.
+    # Refusing to report it because the file is young was over-cautious: we are
+    # not claiming "cheapest ever", only "we saw it drop this much".
+    observed_pct = round((highest - current) / highest * 100, 1) if highest else 0.0
+    observed_deal = (
+        days_tracked >= MIN_DAYS_OBSERVED
+        and days_tracked < MIN_DAYS
+        and current <= lowest
+        and observed_pct >= REAL_DEAL_PCT
+    )
+
+    if observed_deal:
+        verdict, tone = "dropped", "jade"
+        headline_en = f"We watched it fall {observed_pct}% in {days_tracked} days"
+        headline_ar = f"شفناه بينزل {observed_pct}% في {days_tracked} يوم"
+    elif days_tracked < MIN_DAYS:
         verdict, tone = "learning", "neutral"
         left = MIN_DAYS - days_tracked
         # The retailer's own "was" price. We have not verified it -- that is the
@@ -235,6 +256,7 @@ def build(sku, by_date, meta, images=None):
         "lowest_price": lowest,
         "highest_price": highest,
         "delta_pct": delta_pct,
+        "observed_pct": observed_pct,
         "days_tracked": days_tracked,
         "verdict": verdict,
         "tone": tone,
@@ -242,6 +264,7 @@ def build(sku, by_date, meta, images=None):
         "headline_ar": headline_ar,
         "quiet_raise": quiet_raise,
         "last_seen": points[-1]["date"],
+        "captured_at": last_capture,
         "history": downsample(points[-CHART_DAYS:], CHART_POINTS),
     }
 
@@ -263,16 +286,17 @@ def main():
     images = load_images()
     before = previous_verdicts()
 
-    deals = [d for sku, by_date in series.items() if (d := build(sku, by_date, meta, images))]
+    deals = [d for sku, by_date in series.items() if (d := build(sku, by_date, meta, images, latest_capture.get(sku)))]
 
     # A deal is "new" the first run it crosses into jade. This is the trigger
     # the app watches to notify people who have the item on their wishlist --
     # notify on the transition, never on every run, or you become spam.
     for d in deals:
         was = before.get(d["sku_id"])
-        d["is_new"] = d["verdict"] in ("lowest", "real") and was not in ("lowest", "real")
+        JADE = ("lowest", "real", "dropped")
+        d["is_new"] = d["verdict"] in JADE and was not in JADE
 
-    order = {"lowest": 0, "real": 1, "learning": 2, "fake": 3}
+    order = {"lowest": 0, "real": 1, "dropped": 2, "learning": 3, "fake": 4}
     deals.sort(key=lambda d: (order.get(d["verdict"], 9), -d["delta_pct"]))
     total_tracked = len(deals)
     # A phone should not download 1,200 charts to show a feed. Ship the best
@@ -290,7 +314,7 @@ def main():
         "total_tracked": total_tracked,
         "counts": {
             v: sum(1 for d in deals if d["verdict"] == v)
-            for v in ("lowest", "real", "learning", "fake")
+            for v in ("lowest", "real", "dropped", "learning", "fake")
         },
         "new_today": [d["sku_id"] for d in deals if d["is_new"]],
         "deals": deals,
@@ -302,7 +326,7 @@ def main():
     c = payload["counts"]
     size_kb = OUTPUT.stat().st_size / 1024
     print(f"Wrote {OUTPUT.relative_to(ROOT)} — {len(deals)} of {total_tracked} products, {size_kb:,.0f} KB")
-    print(f"  lowest {c['lowest']} | real {c['real']} | learning {c['learning']} | not-a-deal {c['fake']}")
+    print(f"  lowest {c['lowest']} | real {c['real']} | dropped {c['dropped']} | learning {c['learning']} | not-a-deal {c['fake']}")
     n = len(payload["new_today"])
     if n:
         shown = ", ".join(payload["new_today"][:8])

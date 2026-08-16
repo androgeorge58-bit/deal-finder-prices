@@ -40,7 +40,7 @@ APP_ID = os.environ.get("ONESIGNAL_APP_ID", "").strip()
 API_KEY = os.environ.get("ONESIGNAL_API_KEY", "").strip()
 
 # Don't wake people up for a 6% drop. Only genuinely good news gets a push.
-PUSH_VERDICTS = ("lowest", "real")
+PUSH_VERDICTS = ("lowest", "real", "dropped")
 MAX_PER_RUN = 3          # never fire more than this in one go, however many drop
 MIN_PUSH_DELTA = 20.0    # only genuinely striking drops earn an interruption
 
