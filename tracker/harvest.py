@@ -195,6 +195,53 @@ def looks_like_product(node):
     return has_name and has_price and has_id
 
 
+def resolve_image(node, retailer, base_url=""):
+    """
+    Find a usable photo URL inside a product record.
+
+    The listing JSON sometimes holds a full URL, sometimes only a CDN key like
+    "v1683266334/N53393168A_1". Guessing the key format is how the first
+    version ended up with no photos at all, so: take any real URL we can see
+    first, and only build one from a key as a last resort.
+    """
+    def clean(u):
+        u = str(u).strip()
+        if u.startswith("//"):
+            u = "https:" + u
+        if u.startswith("http") and len(u) > 12:
+            return u.split()[0]
+        return ""
+
+    # 1. an explicit image field that already holds a URL
+    for key in ("image", "image_url", "imageUrl", "thumbnail", "thumb",
+                "main_image", "mainImage", "images", "media"):
+        for k, v in node.items():
+            if k.lower() != key.lower():
+                continue
+            if isinstance(v, list) and v:
+                v = v[0]
+            if isinstance(v, dict):
+                v = v.get("url") or v.get("src") or v.get("image_key") or ""
+            got = clean(v)
+            if got:
+                return got
+
+    # 2. any string anywhere in the record that looks like an image URL
+    for v in node.values():
+        if isinstance(v, str) and v.startswith("http") and re.search(r"\.(jpe?g|png|webp)", v, re.I):
+            return clean(v)
+
+    # 3. last resort: build one from a CDN key
+    for k, v in node.items():
+        if "image" in k.lower() and isinstance(v, str) and v and not v.startswith("http"):
+            key = v.strip("/")
+            if retailer == "noon":
+                if not re.search(r"\.(jpe?g|png|webp)$", key, re.I):
+                    key += ".jpg"
+                return f"https://f.nooncdn.com/p/{key}"
+    return ""
+
+
 def pick(node, names):
     for n in names:
         for k, v in node.items():
@@ -248,11 +295,7 @@ def from_embedded_json(soup, html, base_url, retailer):
                 url = urljoin(base_url, str(url))
             if not url and sku:
                 url = f"https://www.noon.com/egypt-en/{slugify(name)}/{sku}/p/"
-            image = pick(p, ["image", "image_url", "imageurl", "image_key", "thumbnail"])
-            if isinstance(image, list) and image:
-                image = image[0]
-            if isinstance(image, str) and image and not image.startswith("http"):
-                image = f"https://f.nooncdn.com/p/{image}.jpg" if retailer == "noon" else ""
+            image = resolve_image(p, retailer, base_url)
             was = to_number(pick(p, ["was_price", "wasprice", "original_price",
                                      "list_price", "regular_price", "price"]))
             out.append({
@@ -353,14 +396,21 @@ def from_cards(soup, html, base_url, retailer):
             if not name and hasattr(link, "get"):
                 name = link.get("title") or link.get("aria-label") or ""
 
-            img = c.select_one("img")
             image = ""
-            if img:
-                image = img.get("src") or img.get("data-src") or img.get("data-srcset") or ""
-                if image.startswith("//"):
-                    image = "https:" + image
-                if " " in image:
-                    image = image.split()[0]
+            for img in c.select("img"):
+                for attr in ("src", "data-src", "data-lazy-src", "data-original", "srcset", "data-srcset"):
+                    cand = (img.get(attr) or "").strip()
+                    if not cand:
+                        continue
+                    cand = cand.split(",")[0].split()[0]
+                    if cand.startswith("//"):
+                        cand = "https:" + cand
+                    if cand.startswith("http") and not any(
+                            x in cand.lower() for x in ("logo", "sprite", "placeholder", "1x1", "blank")):
+                        image = cand
+                        break
+                if image:
+                    break
 
             got.append({
                 "name": str(name)[:160], "price": price, "was": None,
@@ -479,6 +529,7 @@ def main():
                 "url": it["url"] or entry.get("url", ""),
                 "image": it["image"] or entry.get("image", ""),
                 "affiliate_url": entry.get("affiliate_url", ""),
+                "claimed_was": it.get("was") or None,
                 "first_seen": entry.get("first_seen", day),
                 "last_seen": day,
             }

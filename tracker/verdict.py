@@ -108,6 +108,11 @@ def daily_points(by_date):
     ]
 
 
+def d_retailer(info):
+    name = (info or {}).get("retailer", "") if isinstance(info, dict) else ""
+    return {"noon": "noon", "jumia": "Jumia", "amazon": "Amazon"}.get(name.lower(), "The seller")
+
+
 def downsample(points, target):
     """
     Keep the shape of the line without shipping a point per day. Always keeps
@@ -178,11 +183,26 @@ def build(sku, by_date, meta, images=None):
 
     delta_pct = round((baseline - current) / baseline * 100, 1) if baseline else 0.0
     quiet_raise = detect_quiet_raise(points)
+    info = meta.get(sku, {})
 
     if days_tracked < MIN_DAYS:
         verdict, tone = "learning", "neutral"
-        headline_en = f"Still learning this price ({days_tracked}/{MIN_DAYS} days)"
-        headline_ar = f"لسه بنتابع السعر ({days_tracked}/{MIN_DAYS} يوم)"
+        left = MIN_DAYS - days_tracked
+        # The retailer's own "was" price. We have not verified it -- that is the
+        # entire point -- so it is labelled as their claim, never as our verdict.
+        claimed = info.get("claimed_was") if isinstance(info, dict) else None
+        claim_pct = None
+        try:
+            if claimed and float(claimed) > current:
+                claim_pct = round((float(claimed) - current) / float(claimed) * 100, 1)
+        except (TypeError, ValueError):
+            claim_pct = None
+        if claim_pct and claim_pct >= 5:
+            headline_en = f"{d_retailer(info)} claims {claim_pct}% off — we'll know in {left} days"
+            headline_ar = f"{d_retailer(info)} بيقول خصم {claim_pct}% — هنتأكد خلال {left} يوم"
+        else:
+            headline_en = f"Watching this price — verdict in {left} days"
+            headline_ar = f"بنتابع السعر — الحكم خلال {left} يوم"
     elif current <= lowest:
         verdict, tone = "lowest", "jade"
         headline_en = "Lowest price we've ever recorded"
@@ -200,13 +220,13 @@ def build(sku, by_date, meta, images=None):
             headline_en = "Not a deal — this is its normal price"
             headline_ar = "مش خصم — ده سعره الطبيعي"
 
-    info = meta.get(sku, {})
     return {
         "sku_id": sku,
         "name_en": info.get("name_en") or sku,
         "name_ar": info.get("name_ar") or info.get("name_en") or sku,
         "category": info.get("category", "other"),
         "retailer": info.get("retailer", ""),
+        "claimed_was": info.get("claimed_was") or None,
         "url": info.get("url", ""),
         "affiliate_url": info.get("affiliate_url", ""),
         "image": (images or {}).get(sku) or info.get("image", ""),
