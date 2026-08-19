@@ -4,7 +4,7 @@ on:
   schedule:
     # 06:00 and 18:00 Cairo time (UTC+2 winter / UTC+3 summer -- close enough)
     - cron: "0 4 * * *"
-  workflow_dispatch: {}   # lets you press "Run workflow" manually in the UI
+  workflow_dispatch: {}  # lets you press "Run workflow" manually in the UI
 
 permissions:
   contents: write
@@ -48,6 +48,13 @@ jobs:
         if: always()
         run: python tracker/verdict.py
 
+      - name: Run wish watch
+        if: always()
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python tracker/run_wishes.py || echo "wish watch skipped"
+
       - name: Send push notifications
         if: always()
         env:
@@ -60,8 +67,8 @@ jobs:
         run: |
           git config user.name  "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          touch data/pushed.json data/images.json data/catalog.json
-          git add data/history.jsonl data/latest.json data/pushed.json data/images.json data/catalog.json
+          touch data/pushed.json data/images.json data/catalog.json data/wishes.json data/wish_results.json data/wish_history.json data/notifications.json
+          git add data/history.jsonl data/latest.json data/pushed.json data/images.json data/catalog.json data/wishes.json data/wish_results.json data/wish_history.json data/notifications.json
           if git diff --staged --quiet; then
             echo "No price changes to commit."
           else
