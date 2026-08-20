@@ -1,8 +1,8 @@
 [
   {
-    "id": "seed00000001",
     "query": "iPhone 17 256GB",
     "user_id": "u_demo",
+    "id": "seed00000001",
     "category": "mobiles",
     "active": true,
     "purchased": false,
@@ -11,6 +11,6 @@
     "last_best_price": null,
     "last_supplier": null,
     "last_url": null,
-    "last_checked": null
+    "last_checked": 1787203253.665215
   }
 ]
