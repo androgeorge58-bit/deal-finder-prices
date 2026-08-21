@@ -138,23 +138,36 @@ def to_number(raw):
         return v if MIN_PLAUSIBLE_EGP <= v <= MAX_PLAUSIBLE_EGP else None
     text = str(raw).translate(str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789"))
     text = text.replace("\u066b", ".").replace("\u066c", ",")
+    # kill per-unit fragments so "EGP 27.78/kg" doesn't become a candidate
+    text = re.sub(r"\d[\d.,]*\s*(?:/|per\s+)\s*(?:kg|g|ml|l|piece|pc|unit|item|lb|oz)\b",
+                  " ", text, flags=re.I)
     runs = re.findall(r"\d[\d.,]*\d|\d", text)
     if not runs:
         return None
-    text = max(runs, key=len)
-    if "," in text and "." in text:
-        if text.rfind(",") > text.rfind("."):
-            text = text.replace(".", "").replace(",", ".")
-        else:
-            text = text.replace(",", "")
-    elif "," in text:
-        parts = text.split(",")
-        text = text.replace(",", "") if len(parts[-1]) == 3 else text.replace(",", ".")
-    try:
-        v = float(text)
-    except ValueError:
-        return None
-    return v if MIN_PLAUSIBLE_EGP <= v <= MAX_PLAUSIBLE_EGP else None
+    def _norm(t):
+        if "," in t and "." in t:
+            if t.rfind(",") > t.rfind("."):
+                t = t.replace(".", "").replace(",", ".")
+            else:
+                t = t.replace(",", "")
+        elif "," in t:
+            parts = t.split(",")
+            t = t.replace(",", "") if len(parts[-1]) == 3 else t.replace(",", ".")
+        return t
+    # parse every candidate; keep only plausible prices, then take the LARGEST.
+    # rationale: on a retail card the main sale/list price is the biggest number
+    # in the plausible EGP range. Per-unit prices, ratings, review counts are smaller
+    # or out of range. If a bigger 'was' price is also present, we discover it
+    # elsewhere via a dedicated selector.
+    vals = []
+    for r in runs:
+        try:
+            v = float(_norm(r))
+        except ValueError:
+            continue
+        if MIN_PLAUSIBLE_EGP <= v <= MAX_PLAUSIBLE_EGP:
+            vals.append(v)
+    return max(vals) if vals else None
 
 
 def slugify(text, fallback="item"):
@@ -376,8 +389,9 @@ def from_cards(soup, html, base_url, retailer):
                     price = to_number(el.get("data-ga4-price") or el.get_text(" ", strip=True))
                     if price:
                         break
-            if not price:
-                price = to_number(re.sub(r"\s+", " ", c.get_text(" ", strip=True)))
+            # NOTE: no full-card-text fallback anymore. If none of the price
+            # selectors above found a price, skip the card rather than guessing
+            # from arbitrary text (which used to grab per-kg prices, ratings, etc).
             if not price:
                 continue
 
