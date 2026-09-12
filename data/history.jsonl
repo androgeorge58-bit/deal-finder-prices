@@ -12,6 +12,7 @@
 {"sku_id": "airfryer-xl-6-2l", "retailer": "noon", "captured_at": "2026-08-14T23:04:13+00:00", "date": "2026-08-14", "price": 6279.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "airfryer-xl-6-2l", "retailer": "noon", "captured_at": "2026-08-15T05:14:06+00:00", "date": "2026-08-15", "price": 6279.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "airfryer-xl-6-2l", "retailer": "noon", "captured_at": "2026-08-16T19:21:33+00:00", "date": "2026-08-16", "price": 6241.7, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "airfryer-xl-6-2l", "retailer": "noon", "captured_at": "2026-09-12T08:50:30+00:00", "date": "2026-09-12", "price": 6179.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "bits-keys-set-219pc", "retailer": "noon", "captured_at": "2026-08-10T22:49:42+00:00", "date": "2026-08-10", "price": 5990.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "bits-keys-set-219pc", "retailer": "noon", "captured_at": "2026-08-11T08:21:12+00:00", "date": "2026-08-11", "price": 5990.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "bits-keys-set-219pc", "retailer": "noon", "captured_at": "2026-08-12T19:10:48+00:00", "date": "2026-08-12", "price": 5990.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
@@ -836,6 +837,7 @@
 {"sku_id": "mens-deo-dark-wood-50ml", "retailer": "noon", "captured_at": "2026-08-14T23:04:04+00:00", "date": "2026-08-14", "price": 72.68, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "mens-deo-dark-wood-50ml", "retailer": "noon", "captured_at": "2026-08-15T05:13:52+00:00", "date": "2026-08-15", "price": 72.68, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "mens-deo-dark-wood-50ml", "retailer": "noon", "captured_at": "2026-08-16T19:21:25+00:00", "date": "2026-08-16", "price": 72.68, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "mens-deo-dark-wood-50ml", "retailer": "noon", "captured_at": "2026-09-12T08:50:16+00:00", "date": "2026-09-12", "price": 75.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "mg63-home-gym-73kg", "retailer": "noon", "captured_at": "2026-08-10T22:50:01+00:00", "date": "2026-08-10", "price": 25600.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "mg63-home-gym-73kg", "retailer": "noon", "captured_at": "2026-08-11T08:22:43+00:00", "date": "2026-08-11", "price": 25600.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "mg63-home-gym-73kg", "retailer": "noon", "captured_at": "2026-08-12T19:11:30+00:00", "date": "2026-08-12", "price": 25600.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
@@ -5375,6 +5377,7 @@
 {"sku_id": "ps5-slim-disc", "retailer": "noon", "captured_at": "2026-08-14T23:03:27+00:00", "date": "2026-08-14", "price": 40265.7, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "ps5-slim-disc", "retailer": "noon", "captured_at": "2026-08-15T05:13:26+00:00", "date": "2026-08-15", "price": 40235.45, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "ps5-slim-disc", "retailer": "noon", "captured_at": "2026-08-16T19:21:19+00:00", "date": "2026-08-16", "price": 39331.4, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "ps5-slim-disc", "retailer": "noon", "captured_at": "2026-09-12T08:48:33+00:00", "date": "2026-09-12", "price": 39783.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "samsung-s26-ultra-256gb", "retailer": "noon", "captured_at": "2026-08-09T18:34:37+00:00", "date": "2026-08-09", "price": 69744.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "samsung-s26-ultra-256gb", "retailer": "noon", "captured_at": "2026-08-10T22:48:12+00:00", "date": "2026-08-10", "price": 69744.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "samsung-s26-ultra-256gb", "retailer": "noon", "captured_at": "2026-08-11T08:15:50+00:00", "date": "2026-08-11", "price": 69744.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
@@ -5399,3 +5402,4 @@
 {"sku_id": "women-blouse-longsleeve", "retailer": "noon", "captured_at": "2026-08-14T23:00:56+00:00", "date": "2026-08-14", "price": 289.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "women-blouse-longsleeve", "retailer": "noon", "captured_at": "2026-08-15T05:12:21+00:00", "date": "2026-08-15", "price": 289.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "women-blouse-longsleeve", "retailer": "noon", "captured_at": "2026-08-16T19:20:10+00:00", "date": "2026-08-16", "price": 289.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "women-blouse-longsleeve", "retailer": "noon", "captured_at": "2026-09-12T08:38:18+00:00", "date": "2026-09-12", "price": 289.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}

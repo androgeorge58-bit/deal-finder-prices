@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T08:42:58+00:00",
+ "generated_at": "2026-09-12T09:03:06+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -3600,6 +3600,66 @@
    "is_new": false
   },
   {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 6179.0,
+   "baseline_price": 6263.01,
+   "lowest_price": 6179.0,
+   "highest_price": 6279.0,
+   "delta_pct": 1.3,
+   "observed_pct": 1.6,
+   "days_tracked": 8,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 6 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-12",
+   "captured_at": "2026-09-12T08:50:30+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    }
+   ],
+   "is_new": false
+  },
+  {
    "sku_id": "noon-n45753364a",
    "name_en": "non Travel Accessories Jewelry Organizer Box",
    "name_ar": "non Travel Accessories Jewelry Organizer Box",
@@ -5156,62 +5216,6 @@
    "is_new": false
   },
   {
-   "sku_id": "airfryer-xl-6-2l",
-   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
-   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
-   "current_price": 6241.7,
-   "baseline_price": 6266.56,
-   "lowest_price": 6204.35,
-   "highest_price": 6279.0,
-   "delta_pct": 0.4,
-   "observed_pct": 0.6,
-   "days_tracked": 7,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:21:33+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 6204.35
-    },
-    {
-     "date": "2026-08-11",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 6241.7
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "jumia-113871858",
    "name_en": "Diadora GoalPulse Football Shoes - Blue",
    "name_ar": "Diadora GoalPulse Football Shoes - Blue",
@@ -6259,66 +6263,6 @@
     {
      "date": "2026-08-16",
      "price": 8165.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "ps5-slim-disc",
-   "name_en": "PlayStation 5 Slim Disc Version",
-   "name_ar": "بلايستيشن ٥ سليم ديسك",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
-   "current_price": 39331.4,
-   "baseline_price": 39361.19,
-   "lowest_price": 35799.0,
-   "highest_price": 40265.7,
-   "delta_pct": 0.1,
-   "observed_pct": 2.3,
-   "days_tracked": 8,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 6 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:21:19+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 35799.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 40265.7
-    },
-    {
-     "date": "2026-08-11",
-     "price": 40265.7
-    },
-    {
-     "date": "2026-08-12",
-     "price": 39674.35
-    },
-    {
-     "date": "2026-08-13",
-     "price": 39022.4
-    },
-    {
-     "date": "2026-08-14",
-     "price": 40265.7
-    },
-    {
-     "date": "2026-08-15",
-     "price": 40235.45
-    },
-    {
-     "date": "2026-08-16",
-     "price": 39331.4
     }
    ],
    "is_new": false
@@ -13596,62 +13540,6 @@
    "is_new": false
   },
   {
-   "sku_id": "mens-deo-dark-wood-50ml",
-   "name_en": "Men Deep Black Carbon Antiperspirant Roll-On 50ml",
-   "name_ar": "مزيل عرق رجالي ديب بلاك كاربون ٥٠ مل",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/men-deep-black-carbon-dark-wood-antiperspirant-antibacterial-roll-on-dark-wood-50ml/N15767861A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N15767861A/45/_/1767607876/0eb84ad8-32b1-4d4f-877d-f223c3371966.jpg?width=1200",
-   "current_price": 72.68,
-   "baseline_price": 72.68,
-   "lowest_price": 72.68,
-   "highest_price": 72.68,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 7,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:21:25+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-11",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-12",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-13",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-14",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-15",
-     "price": 72.68
-    },
-    {
-     "date": "2026-08-16",
-     "price": 72.68
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "mg63-home-gym-73kg",
    "name_en": "MG63 Home Gym Single Station 73kg Weights",
    "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
@@ -17223,6 +17111,70 @@
     {
      "date": "2026-08-16",
      "price": 409.95
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28968513a",
+   "name_en": "Nescafe Gold 3in1 - 12 sachet 21grams Pack of 12",
+   "name_ar": "Nescafe Gold 3in1 - 12 sachet 21grams Pack of 12",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/gold-3in1-12-sachet-21grams-pack-of-12/N28968513A/p/?o=c163b46a33fe9b6a",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZA4570F76CC4D416AB7DEZ/45/_/1779094267/9a0959bc-1ac6-47cb-8b3e-480b383e1e95.jpg?width=800",
+   "current_price": 165.0,
+   "baseline_price": 165.0,
+   "lowest_price": 165.0,
+   "highest_price": 165.0,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 165.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28968547a",
+   "name_en": "Nescafe Classic Instant Coffee Pouch 18grams",
+   "name_ar": "Nescafe Classic Instant Coffee Pouch 18grams",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/classic-instant-coffee-pouch-18grams/N28968547A/p/?o=bf190ba1d96866da",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZB218905F0D6C2E125F8EZ/45/_/1779093822/54e460ee-19e4-465c-9263-6a8f763cac03.jpg?width=800",
+   "current_price": 366.67,
+   "baseline_price": 366.67,
+   "lowest_price": 366.67,
+   "highest_price": 366.67,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 366.67
     }
    ],
    "is_new": false
