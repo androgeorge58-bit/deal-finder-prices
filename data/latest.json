@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T09:17:26+00:00",
+ "generated_at": "2026-09-16T09:26:21+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -9,11 +9,14 @@
  "counts": {
   "lowest": 0,
   "real": 0,
-  "dropped": 20,
-  "learning": 380,
+  "dropped": 22,
+  "learning": 378,
   "fake": 0
  },
- "new_today": [],
+ "new_today": [
+  "hair-beader-2in1",
+  "mg63-home-gym-73kg"
+ ],
  "deals": [
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
@@ -296,6 +299,66 @@
    "is_new": false
   },
   {
+   "sku_id": "hair-beader-2in1",
+   "name_en": "2-in-1 Double the Fun Hair Beader",
+   "name_ar": "جهاز تضفير الشعر ٢ في ١",
+   "category": "beauty",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
+   "current_price": 275.05,
+   "baseline_price": 358.08,
+   "lowest_price": 275.05,
+   "highest_price": 392.48,
+   "delta_pct": 23.2,
+   "observed_pct": 29.9,
+   "days_tracked": 8,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 29.9% in 8 days",
+   "headline_ar": "شفناه بينزل 29.9% في 8 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:22:24+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 337.15
+    },
+    {
+     "date": "2026-08-11",
+     "price": 337.1
+    },
+    {
+     "date": "2026-08-12",
+     "price": 392.48
+    },
+    {
+     "date": "2026-08-13",
+     "price": 359.95
+    },
+    {
+     "date": "2026-08-14",
+     "price": 359.95
+    },
+    {
+     "date": "2026-08-15",
+     "price": 359.95
+    },
+    {
+     "date": "2026-08-16",
+     "price": 359.95
+    },
+    {
+     "date": "2026-09-16",
+     "price": 275.05
+    }
+   ],
+   "is_new": true
+  },
+  {
    "sku_id": "jumia-77255857",
    "name_en": "White Extra Soft Tissues, 300 Tissues (Pack Of 6)",
    "name_ar": "White Extra Soft Tissues, 300 Tissues (Pack Of 6)",
@@ -526,6 +589,66 @@
     }
    ],
    "is_new": false
+  },
+  {
+   "sku_id": "mg63-home-gym-73kg",
+   "name_en": "MG63 Home Gym Single Station 73kg Weights",
+   "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
+   "category": "sports",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/mg63-multifunctional-comprehensive-training-equipment-home-gym-single-station-73kg-weights/ZDE104DD0C7C0B27E9637Z/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZDE104DD0C7C0B27E9637Z/45/_/1739204181/c32b6f5e-f083-4134-9637-0f1a04697529.jpg?width=1200",
+   "current_price": 22845.0,
+   "baseline_price": 25600.0,
+   "lowest_price": 22845.0,
+   "highest_price": 25600.0,
+   "delta_pct": 10.8,
+   "observed_pct": 10.8,
+   "days_tracked": 8,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 10.8% in 8 days",
+   "headline_ar": "شفناه بينزل 10.8% في 8 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:23:59+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 22845.0
+    }
+   ],
+   "is_new": true
   },
   {
    "sku_id": "noon-n70016911v",
@@ -1552,6 +1675,66 @@
    "is_new": false
   },
   {
+   "sku_id": "buzz-lightyear-figure-12in",
+   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
+   "name_ar": "باز لايت يير حركي ١٢ بوصة",
+   "category": "toys",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z4BBD6949B7FA0F88E59DZ/45/_/1780571127/e4525c60-59b9-4d83-83f3-41e403962cf9.jpg?width=1200",
+   "current_price": 422.3,
+   "baseline_price": 448.43,
+   "lowest_price": 422.3,
+   "highest_price": 450.0,
+   "delta_pct": 5.8,
+   "observed_pct": 6.2,
+   "days_tracked": 8,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 6 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:22:05+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 449.43
+    },
+    {
+     "date": "2026-08-13",
+     "price": 448.85
+    },
+    {
+     "date": "2026-08-14",
+     "price": 448.85
+    },
+    {
+     "date": "2026-08-15",
+     "price": 445.8
+    },
+    {
+     "date": "2026-08-16",
+     "price": 446.1
+    },
+    {
+     "date": "2026-09-16",
+     "price": 422.3
+    }
+   ],
+   "is_new": false
+  },
+  {
    "sku_id": "noon-z3f2c3dde8d79857679a6z",
    "name_en": "SportQ® 6 in 1 Multitasking Dumbbell, Adjustable on Weighted Ball and Olympic Bars, Push Up Training, Ideal for Free Weight Exercise, Fitness and Home Workout, ",
    "name_ar": "SportQ® 6 in 1 Multitasking Dumbbell, Adjustable on Weighted Ball and Olympic Bars, Push Up Training, Ideal for Free Weight Exercise, Fitness and Home Workout, ",
@@ -1739,6 +1922,66 @@
     {
      "date": "2026-08-16",
      "price": 69.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mini-stepper-ceramic",
+   "name_en": "Ceramic Mini Stepper Steel",
+   "name_ar": "ستيبر ميني ستانلس",
+   "category": "sports",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZE716AC7DCCCAB043AB70Z/45/_/1779790647/95f0c479-49c3-4ef4-8f63-63adfbf727fa.jpg?width=1200",
+   "current_price": 1900.0,
+   "baseline_price": 1999.0,
+   "lowest_price": 1900.0,
+   "highest_price": 1999.0,
+   "delta_pct": 5.0,
+   "observed_pct": 5.0,
+   "days_tracked": 8,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 6 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:23:13+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 1900.0
     }
    ],
    "is_new": false
@@ -2015,6 +2258,70 @@
     {
      "date": "2026-08-15",
      "price": 430.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "tomato-paste-2800g",
+   "name_en": "Tomato Paste 2800g",
+   "name_ar": "معجون طماطم ٢٨٠٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
+   "current_price": 244.25,
+   "baseline_price": 254.0,
+   "lowest_price": 244.25,
+   "highest_price": 254.0,
+   "delta_pct": 3.8,
+   "observed_pct": 3.8,
+   "days_tracked": 9,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 5 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:12:23+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 254.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 244.25
     }
    ],
    "is_new": false
@@ -2584,6 +2891,70 @@
    "is_new": false
   },
   {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 6099.0,
+   "baseline_price": 6252.51,
+   "lowest_price": 6099.0,
+   "highest_price": 6279.0,
+   "delta_pct": 2.5,
+   "observed_pct": 2.9,
+   "days_tracked": 9,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 5 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:21:23+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 6099.0
+    }
+   ],
+   "is_new": false
+  },
+  {
    "sku_id": "noon-n70204490v",
    "name_en": "Infinix Hot 60i Dual SIM Titanium Silver 6+6GB RAM 128GB 4G - Middle East Version",
    "name_ar": "Infinix Hot 60i Dual SIM Titanium Silver 6+6GB RAM 128GB 4G - Middle East Version",
@@ -3064,66 +3435,6 @@
    "is_new": false
   },
   {
-   "sku_id": "detergent-oriental-9kg",
-   "name_en": "Automatic Powder Detergent Oriental 9kg",
-   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
-   "current_price": 515.0,
-   "baseline_price": 524.27,
-   "lowest_price": 515.0,
-   "highest_price": 550.0,
-   "delta_pct": 1.8,
-   "observed_pct": 6.4,
-   "days_tracked": 8,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 6 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:19:49+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 550.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 529.95
-    },
-    {
-     "date": "2026-08-11",
-     "price": 529.95
-    },
-    {
-     "date": "2026-08-12",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 515.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n70275760v",
    "name_en": "Xiaomi Electric Scooter 6 Lite, Dual-Spring Front Suspension, 25km Range, 10-Inch Pneumatic Tires, 500W Peak Motor, Front Drum & Rear E-ABS Braking, Foldable Sc",
    "name_ar": "Xiaomi Electric Scooter 6 Lite, Dual-Spring Front Suspension, 25km Range, 10-Inch Pneumatic Tires, 500W Peak Motor, Front Drum & Rear E-ABS Braking, Foldable Sc",
@@ -3595,66 +3906,6 @@
     {
      "date": "2026-08-16",
      "price": 14299.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "airfryer-xl-6-2l",
-   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
-   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
-   "current_price": 6179.0,
-   "baseline_price": 6263.01,
-   "lowest_price": 6179.0,
-   "highest_price": 6279.0,
-   "delta_pct": 1.3,
-   "observed_pct": 1.6,
-   "days_tracked": 8,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 6 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-09-12",
-   "captured_at": "2026-09-12T08:50:30+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 6204.35
-    },
-    {
-     "date": "2026-08-11",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 6241.7
-    },
-    {
-     "date": "2026-09-12",
-     "price": 6179.0
     }
    ],
    "is_new": false
@@ -4272,6 +4523,80 @@
    "is_new": false
   },
   {
+   "sku_id": "ps5-slim-disc",
+   "name_en": "PlayStation 5 Slim Disc Version",
+   "name_ar": "بلايستيشن ٥ سليم ديسك",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
+   "current_price": 39029.25,
+   "baseline_price": 39404.74,
+   "lowest_price": 35799.0,
+   "highest_price": 40265.7,
+   "delta_pct": 1.0,
+   "observed_pct": 3.1,
+   "days_tracked": 10,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 4 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 4 يوم",
+   "quiet_raise": {
+    "raised_on": "2026-08-10",
+    "price_before": 35799.0,
+    "price_after": 40265.7,
+    "raise_pct": 12.5,
+    "still_above_pre_raise_pct": 9.0
+   },
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:20:48+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 35799.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 40265.7
+    },
+    {
+     "date": "2026-08-11",
+     "price": 40265.7
+    },
+    {
+     "date": "2026-08-12",
+     "price": 39674.35
+    },
+    {
+     "date": "2026-08-13",
+     "price": 39022.4
+    },
+    {
+     "date": "2026-08-14",
+     "price": 40265.7
+    },
+    {
+     "date": "2026-08-15",
+     "price": 40235.45
+    },
+    {
+     "date": "2026-08-16",
+     "price": 39331.4
+    },
+    {
+     "date": "2026-09-12",
+     "price": 39783.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 39029.25
+    }
+   ],
+   "is_new": false
+  },
+  {
    "sku_id": "noon-n51378810a",
    "name_en": "TP-LINK UB500 Bluetooth 5.4 Nano USB Adapter for PC, Bluetooth Wireless Connection Dongle Receiver Support Windows 11/10/8.1/7 for Desktop, Laptop, Mouse, Keybo",
    "name_ar": "TP-LINK UB500 Bluetooth 5.4 Nano USB Adapter for PC, Bluetooth Wireless Connection Dongle Receiver Support Windows 11/10/8.1/7 for Desktop, Laptop, Mouse, Keybo",
@@ -4704,57 +5029,65 @@
    "is_new": false
   },
   {
-   "sku_id": "buzz-lightyear-figure-12in",
-   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
-   "name_ar": "باز لايت يير حركي ١٢ بوصة",
-   "category": "toys",
+   "sku_id": "detergent-oriental-9kg",
+   "name_en": "Automatic Powder Detergent Oriental 9kg",
+   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
+   "category": "supermarket",
    "retailer": "noon",
    "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
+   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
    "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z4BBD6949B7FA0F88E59DZ/45/_/1780571127/e4525c60-59b9-4d83-83f3-41e403962cf9.jpg?width=1200",
-   "current_price": 446.1,
-   "baseline_price": 448.82,
-   "lowest_price": 445.8,
-   "highest_price": 450.0,
+   "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
+   "current_price": 519.95,
+   "baseline_price": 523.11,
+   "lowest_price": 515.0,
+   "highest_price": 550.0,
    "delta_pct": 0.6,
-   "observed_pct": 0.9,
-   "days_tracked": 7,
+   "observed_pct": 5.5,
+   "days_tracked": 9,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
+   "headline_en": "Watching this price — verdict in 5 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
    "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:22:08+00:00",
+   "last_seen": "2026-09-16",
+   "captured_at": "2026-09-16T09:10:20+00:00",
    "history": [
     {
+     "date": "2026-08-09",
+     "price": 550.0
+    },
+    {
      "date": "2026-08-10",
-     "price": 450.0
+     "price": 529.95
     },
     {
      "date": "2026-08-11",
-     "price": 450.0
+     "price": 529.95
     },
     {
      "date": "2026-08-12",
-     "price": 449.43
+     "price": 515.0
     },
     {
      "date": "2026-08-13",
-     "price": 448.85
+     "price": 515.0
     },
     {
      "date": "2026-08-14",
-     "price": 448.85
+     "price": 515.0
     },
     {
      "date": "2026-08-15",
-     "price": 445.8
+     "price": 515.0
     },
     {
      "date": "2026-08-16",
-     "price": 446.1
+     "price": 515.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 519.95
     }
    ],
    "is_new": false
@@ -6268,62 +6601,6 @@
    "is_new": false
   },
   {
-   "sku_id": "accuchek-strips-50",
-   "name_en": "Accu-Chek Instant Blood Glucose 50 Test Strips",
-   "name_ar": "شرائط قياس السكر أكيوتشيك إنستانت ٥٠ شريط",
-   "category": "health",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/accu-chek-instant-blood-glucose-50-test-strips/N20894246A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z93D44108322CA21BFFCDZ/45/_/1777375916/f3633faa-9638-4c80-b339-f60a1d96315a.jpg?width=1200",
-   "current_price": 640.0,
-   "baseline_price": 640.0,
-   "lowest_price": 640.0,
-   "highest_price": 640.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 7,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T05:18:53+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 640.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "bits-keys-set-219pc",
    "name_en": "219-Piece Bits and Keys Set",
    "name_ar": "طقم مفكات ومفاتيح ٢١٩ قطعة",
@@ -6435,66 +6712,6 @@
     {
      "date": "2026-08-16",
      "price": 660.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "black-tea-500g",
-   "name_en": "Black Tea 500g",
-   "name_ar": "شاي أسود ٥٠٠ جرام",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/black-tea-500g/Z381EC15AEC5299666293Z/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/79d97dcaae2453bdb2b27a3810e3bfd2|pzsku/Z381EC15AEC5299666293Z/45/1769440495/9d598c61-3df7-4a24-85f7-fb33e5963ac2.jpg?width=1200",
-   "current_price": 120.0,
-   "baseline_price": 120.0,
-   "lowest_price": 120.0,
-   "highest_price": 120.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 8,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 6 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 6 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:19:35+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 120.0
     }
    ],
    "is_new": false
@@ -13540,118 +13757,6 @@
    "is_new": false
   },
   {
-   "sku_id": "mg63-home-gym-73kg",
-   "name_en": "MG63 Home Gym Single Station 73kg Weights",
-   "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
-   "category": "sports",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/mg63-multifunctional-comprehensive-training-equipment-home-gym-single-station-73kg-weights/ZDE104DD0C7C0B27E9637Z/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZDE104DD0C7C0B27E9637Z/45/_/1739204181/c32b6f5e-f083-4134-9637-0f1a04697529.jpg?width=1200",
-   "current_price": 25600.0,
-   "baseline_price": 25600.0,
-   "lowest_price": 25600.0,
-   "highest_price": 25600.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 7,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T05:18:47+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 25600.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "mini-stepper-ceramic",
-   "name_en": "Ceramic Mini Stepper Steel",
-   "name_ar": "ستيبر ميني ستانلس",
-   "category": "sports",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZE716AC7DCCCAB043AB70Z/45/_/1779790647/95f0c479-49c3-4ef4-8f63-63adfbf727fa.jpg?width=1200",
-   "current_price": 1999.0,
-   "baseline_price": 1999.0,
-   "lowest_price": 1999.0,
-   "highest_price": 1999.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 7,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 7 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 7 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T05:18:21+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 1999.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n11202998a",
    "name_en": "Lattafa Raghba Arabic Perfume EDP 100ml",
    "name_ar": "Lattafa Raghba Arabic Perfume EDP 100ml",
@@ -17143,38 +17248,6 @@
     {
      "date": "2026-08-16",
      "price": 165.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "noon-n28968547a",
-   "name_en": "Nescafe Classic Instant Coffee Pouch 18grams",
-   "name_ar": "Nescafe Classic Instant Coffee Pouch 18grams",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/classic-instant-coffee-pouch-18grams/N28968547A/p/?o=bf190ba1d96866da",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZB218905F0D6C2E125F8EZ/45/_/1779093822/54e460ee-19e4-465c-9263-6a8f763cac03.jpg?width=800",
-   "current_price": 366.67,
-   "baseline_price": 366.67,
-   "lowest_price": 366.67,
-   "highest_price": 366.67,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 13 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:08:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-16",
-     "price": 366.67
     }
    ],
    "is_new": false
