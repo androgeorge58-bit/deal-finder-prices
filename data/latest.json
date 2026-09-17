@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T09:26:21+00:00",
+ "generated_at": "2026-09-17T09:17:46+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -13,10 +13,7 @@
   "learning": 378,
   "fake": 0
  },
- "new_today": [
-  "hair-beader-2in1",
-  "mg63-home-gym-73kg"
- ],
+ "new_today": [],
  "deals": [
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
@@ -356,7 +353,7 @@
      "price": 275.05
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "jumia-77255857",
@@ -648,7 +645,7 @@
      "price": 22845.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70016911v",
