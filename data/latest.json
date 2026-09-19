@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T09:11:58+00:00",
+ "generated_at": "2026-09-19T08:57:18+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -305,20 +305,20 @@
    "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
-   "current_price": 275.05,
-   "baseline_price": 358.08,
-   "lowest_price": 275.05,
+   "current_price": 273.55,
+   "baseline_price": 347.7,
+   "lowest_price": 273.55,
    "highest_price": 392.48,
-   "delta_pct": 23.2,
-   "observed_pct": 29.9,
-   "days_tracked": 8,
+   "delta_pct": 21.3,
+   "observed_pct": 30.3,
+   "days_tracked": 9,
    "verdict": "dropped",
    "tone": "jade",
-   "headline_en": "We watched it fall 29.9% in 8 days",
-   "headline_ar": "شفناه بينزل 29.9% في 8 يوم",
+   "headline_en": "We watched it fall 30.3% in 9 days",
+   "headline_ar": "شفناه بينزل 30.3% في 9 يوم",
    "quiet_raise": null,
-   "last_seen": "2026-09-16",
-   "captured_at": "2026-09-16T09:22:24+00:00",
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:52:07+00:00",
    "history": [
     {
      "date": "2026-08-10",
@@ -351,6 +351,10 @@
     {
      "date": "2026-09-16",
      "price": 275.05
+    },
+    {
+     "date": "2026-09-19",
+     "price": 273.55
     }
    ],
    "is_new": false
@@ -588,66 +592,6 @@
    "is_new": false
   },
   {
-   "sku_id": "mg63-home-gym-73kg",
-   "name_en": "MG63 Home Gym Single Station 73kg Weights",
-   "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
-   "category": "sports",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/mg63-multifunctional-comprehensive-training-equipment-home-gym-single-station-73kg-weights/ZDE104DD0C7C0B27E9637Z/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZDE104DD0C7C0B27E9637Z/45/_/1739204181/c32b6f5e-f083-4134-9637-0f1a04697529.jpg?width=1200",
-   "current_price": 22845.0,
-   "baseline_price": 25600.0,
-   "lowest_price": 22845.0,
-   "highest_price": 25600.0,
-   "delta_pct": 10.8,
-   "observed_pct": 10.8,
-   "days_tracked": 8,
-   "verdict": "dropped",
-   "tone": "jade",
-   "headline_en": "We watched it fall 10.8% in 8 days",
-   "headline_ar": "شفناه بينزل 10.8% في 8 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-09-16",
-   "captured_at": "2026-09-16T09:23:59+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 25600.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 22845.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n70016911v",
    "name_en": "JOYROOM JR-BP560S Capacitive Touchscreen Stylus Passive Capacitive Pen For iPad iPhone All Capacitive Screens With Two Replacement Nibs Black",
    "name_ar": "JOYROOM JR-BP560S Capacitive Touchscreen Stylus Passive Capacitive Pen For iPad iPhone All Capacitive Screens With Two Replacement Nibs Black",
@@ -787,6 +731,70 @@
     {
      "date": "2026-08-16",
      "price": 385.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mg63-home-gym-73kg",
+   "name_en": "MG63 Home Gym Single Station 73kg Weights",
+   "name_ar": "جهاز جيم منزلي MG63 ٧٣ كجم أوزان",
+   "category": "sports",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/mg63-multifunctional-comprehensive-training-equipment-home-gym-single-station-73kg-weights/ZDE104DD0C7C0B27E9637Z/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZDE104DD0C7C0B27E9637Z/45/_/1739204181/c32b6f5e-f083-4134-9637-0f1a04697529.jpg?width=1200",
+   "current_price": 22845.0,
+   "baseline_price": 25255.62,
+   "lowest_price": 22845.0,
+   "highest_price": 25600.0,
+   "delta_pct": 9.5,
+   "observed_pct": 10.8,
+   "days_tracked": 9,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 10.8% in 9 days",
+   "headline_ar": "شفناه بينزل 10.8% في 9 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:55:45+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 25600.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 22845.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 22845.0
     }
    ],
    "is_new": false
@@ -1864,70 +1872,6 @@
    "is_new": false
   },
   {
-   "sku_id": "buzz-lightyear-figure-12in",
-   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
-   "name_ar": "باز لايت يير حركي ١٢ بوصة",
-   "category": "toys",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z4BBD6949B7FA0F88E59DZ/45/_/1780571127/e4525c60-59b9-4d83-83f3-41e403962cf9.jpg?width=1200",
-   "current_price": 422.3,
-   "baseline_price": 445.17,
-   "lowest_price": 422.3,
-   "highest_price": 450.0,
-   "delta_pct": 5.1,
-   "observed_pct": 6.2,
-   "days_tracked": 9,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 5 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-09-18",
-   "captured_at": "2026-09-18T09:03:28+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 450.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 450.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 449.43
-    },
-    {
-     "date": "2026-08-13",
-     "price": 448.85
-    },
-    {
-     "date": "2026-08-14",
-     "price": 448.85
-    },
-    {
-     "date": "2026-08-15",
-     "price": 445.8
-    },
-    {
-     "date": "2026-08-16",
-     "price": 446.1
-    },
-    {
-     "date": "2026-09-16",
-     "price": 422.3
-    },
-    {
-     "date": "2026-09-18",
-     "price": 422.3
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n22229188a",
    "name_en": "Lewo Wooden Educational Multicolour Shape Recognition Stacking Block Set For Baby 6.3x5.31x2.76inch",
    "name_ar": "Lewo Wooden Educational Multicolour Shape Recognition Stacking Block Set For Baby 6.3x5.31x2.76inch",
@@ -2019,6 +1963,74 @@
     {
      "date": "2026-08-16",
      "price": 1200.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "buzz-lightyear-figure-12in",
+   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
+   "name_ar": "باز لايت يير حركي ١٢ بوصة",
+   "category": "toys",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z4BBD6949B7FA0F88E59DZ/45/_/1780571127/e4525c60-59b9-4d83-83f3-41e403962cf9.jpg?width=1200",
+   "current_price": 422.3,
+   "baseline_price": 442.63,
+   "lowest_price": 422.3,
+   "highest_price": 450.0,
+   "delta_pct": 4.6,
+   "observed_pct": 6.2,
+   "days_tracked": 10,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 4 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 4 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:51:33+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 449.43
+    },
+    {
+     "date": "2026-08-13",
+     "price": 448.85
+    },
+    {
+     "date": "2026-08-14",
+     "price": 448.85
+    },
+    {
+     "date": "2026-08-15",
+     "price": 445.8
+    },
+    {
+     "date": "2026-08-16",
+     "price": 446.1
+    },
+    {
+     "date": "2026-09-16",
+     "price": 422.3
+    },
+    {
+     "date": "2026-09-18",
+     "price": 422.3
+    },
+    {
+     "date": "2026-09-19",
+     "price": 422.3
     }
    ],
    "is_new": false
@@ -2996,74 +3008,6 @@
    "is_new": false
   },
   {
-   "sku_id": "airfryer-xl-6-2l",
-   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
-   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
-   "current_price": 6099.0,
-   "baseline_price": 6235.45,
-   "lowest_price": 6099.0,
-   "highest_price": 6279.0,
-   "delta_pct": 2.2,
-   "observed_pct": 2.9,
-   "days_tracked": 10,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 4 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 4 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-09-18",
-   "captured_at": "2026-09-18T09:03:01+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 6204.35
-    },
-    {
-     "date": "2026-08-11",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 6241.7
-    },
-    {
-     "date": "2026-09-12",
-     "price": 6179.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 6099.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 6099.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "jumia-84830090",
    "name_en": "Molfix Molfix Baby Diapers - Mega Pack - Junior Size 5 - 70 Pieces",
    "name_ar": "Molfix Molfix Baby Diapers - Mega Pack - Junior Size 5 - 70 Pieces",
@@ -3395,6 +3339,78 @@
     {
      "date": "2026-08-16",
      "price": 670.73
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 6099.0,
+   "baseline_price": 6221.81,
+   "lowest_price": 6099.0,
+   "highest_price": 6279.0,
+   "delta_pct": 2.0,
+   "observed_pct": 2.9,
+   "days_tracked": 11,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 3 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 3 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:51:11+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 6099.0
     }
    ],
    "is_new": false
@@ -4846,70 +4862,6 @@
    "is_new": false
   },
   {
-   "sku_id": "haier-50-qled-tv",
-   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
-   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
-   "current_price": 17100.0,
-   "baseline_price": 17215.0,
-   "lowest_price": 17100.0,
-   "highest_price": 17350.0,
-   "delta_pct": 0.7,
-   "observed_pct": 1.4,
-   "days_tracked": 9,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 5 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-09-18",
-   "captured_at": "2026-09-18T09:00:41+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 17270.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 17100.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n36430876a",
    "name_en": "Disney Toy Story 3 Buzz Lightyear Action Figure 12inch",
    "name_ar": "Disney Toy Story 3 Buzz Lightyear Action Figure 12inch",
@@ -5050,65 +5002,69 @@
    "is_new": false
   },
   {
-   "sku_id": "accuchek-strips-50",
-   "name_en": "Accu-Chek Instant Blood Glucose 50 Test Strips",
-   "name_ar": "شرائط قياس السكر أكيوتشيك إنستانت ٥٠ شريط",
-   "category": "health",
+   "sku_id": "haier-50-qled-tv",
+   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
+   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
+   "category": "electronics",
    "retailer": "noon",
    "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/accu-chek-instant-blood-glucose-50-test-strips/N20894246A/p/",
+   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
    "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z93D44108322CA21BFFCDZ/45/_/1777375916/f3633faa-9638-4c80-b339-f60a1d96315a.jpg?width=1200",
-   "current_price": 640.0,
-   "baseline_price": 643.75,
-   "lowest_price": 640.0,
-   "highest_price": 670.0,
+   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
+   "current_price": 17100.0,
+   "baseline_price": 17202.22,
+   "lowest_price": 17100.0,
+   "highest_price": 17350.0,
    "delta_pct": 0.6,
-   "observed_pct": 4.5,
-   "days_tracked": 9,
+   "observed_pct": 1.4,
+   "days_tracked": 10,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 5 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 5 يوم",
+   "headline_en": "Watching this price — verdict in 4 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 4 يوم",
    "quiet_raise": null,
-   "last_seen": "2026-09-18",
-   "captured_at": "2026-09-18T09:11:30+00:00",
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:48:16+00:00",
    "history": [
     {
+     "date": "2026-08-09",
+     "price": 17350.0
+    },
+    {
      "date": "2026-08-10",
-     "price": 640.0
+     "price": 17350.0
     },
     {
      "date": "2026-08-11",
-     "price": 640.0
+     "price": 17350.0
     },
     {
      "date": "2026-08-12",
-     "price": 640.0
+     "price": 17100.0
     },
     {
      "date": "2026-08-13",
-     "price": 640.0
+     "price": 17100.0
     },
     {
      "date": "2026-08-14",
-     "price": 640.0
+     "price": 17100.0
     },
     {
      "date": "2026-08-15",
-     "price": 640.0
+     "price": 17100.0
     },
     {
      "date": "2026-08-16",
-     "price": 640.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 670.0
+     "price": 17270.0
     },
     {
      "date": "2026-09-18",
-     "price": 640.0
+     "price": 17100.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 17100.0
     }
    ],
    "is_new": false
@@ -5344,19 +5300,19 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
    "current_price": 519.95,
-   "baseline_price": 522.76,
+   "baseline_price": 522.48,
    "lowest_price": 515.0,
    "highest_price": 550.0,
    "delta_pct": 0.5,
    "observed_pct": 5.5,
-   "days_tracked": 10,
+   "days_tracked": 11,
    "verdict": "learning",
    "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 4 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 4 يوم",
+   "headline_en": "Watching this price — verdict in 3 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 3 يوم",
    "quiet_raise": null,
-   "last_seen": "2026-09-18",
-   "captured_at": "2026-09-18T08:53:40+00:00",
+   "last_seen": "2026-09-19",
+   "captured_at": "2026-09-19T08:39:22+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -5396,6 +5352,10 @@
     },
     {
      "date": "2026-09-18",
+     "price": 519.95
+    },
+    {
+     "date": "2026-09-19",
      "price": 519.95
     }
    ],
@@ -17305,6 +17265,38 @@
     {
      "date": "2026-08-16",
      "price": 409.95
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28968513a",
+   "name_en": "Nescafe Gold 3in1 - 12 sachet 21grams Pack of 12",
+   "name_ar": "Nescafe Gold 3in1 - 12 sachet 21grams Pack of 12",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/gold-3in1-12-sachet-21grams-pack-of-12/N28968513A/p/?o=c163b46a33fe9b6a",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZA4570F76CC4D416AB7DEZ/45/_/1779094267/9a0959bc-1ac6-47cb-8b3e-480b383e1e95.jpg?width=800",
+   "current_price": 165.0,
+   "baseline_price": 165.0,
+   "lowest_price": 165.0,
+   "highest_price": 165.0,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 165.0
     }
    ],
    "is_new": false
