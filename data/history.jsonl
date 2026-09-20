@@ -45,6 +45,7 @@
 {"sku_id": "black-tea-500g", "retailer": "noon", "captured_at": "2026-09-16T09:09:27+00:00", "date": "2026-09-16", "price": 125.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "black-tea-500g", "retailer": "noon", "captured_at": "2026-09-18T08:53:07+00:00", "date": "2026-09-18", "price": 125.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "black-tea-500g", "retailer": "noon", "captured_at": "2026-09-19T08:38:35+00:00", "date": "2026-09-19", "price": 125.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "black-tea-500g", "retailer": "noon", "captured_at": "2026-09-20T09:08:52+00:00", "date": "2026-09-20", "price": 125.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "buzz-lightyear-figure-12in", "retailer": "noon", "captured_at": "2026-08-10T22:49:29+00:00", "date": "2026-08-10", "price": 450.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "buzz-lightyear-figure-12in", "retailer": "noon", "captured_at": "2026-08-11T08:19:55+00:00", "date": "2026-08-11", "price": 450.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "buzz-lightyear-figure-12in", "retailer": "noon", "captured_at": "2026-08-12T19:10:04+00:00", "date": "2026-08-12", "price": 449.43, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
@@ -66,6 +67,7 @@
 {"sku_id": "detergent-oriental-9kg", "retailer": "noon", "captured_at": "2026-09-16T09:10:20+00:00", "date": "2026-09-16", "price": 519.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "detergent-oriental-9kg", "retailer": "noon", "captured_at": "2026-09-18T08:53:40+00:00", "date": "2026-09-18", "price": 519.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "detergent-oriental-9kg", "retailer": "noon", "captured_at": "2026-09-19T08:39:22+00:00", "date": "2026-09-19", "price": 519.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "detergent-oriental-9kg", "retailer": "noon", "captured_at": "2026-09-20T09:12:21+00:00", "date": "2026-09-20", "price": 519.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "dolce-gusto-espresso-16", "retailer": "noon", "captured_at": "2026-08-09T18:32:25+00:00", "date": "2026-08-09", "price": 467.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "dolce-gusto-espresso-16", "retailer": "noon", "captured_at": "2026-08-10T22:47:21+00:00", "date": "2026-08-10", "price": 467.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "dolce-gusto-espresso-16", "retailer": "noon", "captured_at": "2026-08-11T08:14:12+00:00", "date": "2026-08-11", "price": 467.0, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
@@ -119,6 +121,7 @@
 {"sku_id": "iphone-17-256gb-blue", "retailer": "noon", "captured_at": "2026-09-16T09:18:32+00:00", "date": "2026-09-16", "price": 75554.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "iphone-17-256gb-blue", "retailer": "noon", "captured_at": "2026-09-18T09:00:15+00:00", "date": "2026-09-18", "price": 75554.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "iphone-17-256gb-blue", "retailer": "noon", "captured_at": "2026-09-19T08:47:29+00:00", "date": "2026-09-19", "price": 75554.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
+{"sku_id": "iphone-17-256gb-blue", "retailer": "noon", "captured_at": "2026-09-20T09:21:06+00:00", "date": "2026-09-20", "price": 75554.95, "currency": "EGP", "method": "jsonld", "status": "ok", "note": null}
 {"sku_id": "jumia-03694c9b1088", "retailer": "jumia", "captured_at": "2026-08-16T05:06:18+00:00", "date": "2026-08-16", "price": 135.0, "currency": "EGP", "method": "cards", "status": "ok", "note": null}
 {"sku_id": "jumia-060145ed4c08", "retailer": "jumia", "captured_at": "2026-08-14T08:42:35+00:00", "date": "2026-08-14", "price": 750.0, "currency": "EGP", "method": "cards", "status": "ok", "note": null}
 {"sku_id": "jumia-060145ed4c08", "retailer": "jumia", "captured_at": "2026-08-16T05:06:18+00:00", "date": "2026-08-16", "price": 750.0, "currency": "EGP", "method": "cards", "status": "ok", "note": null}
