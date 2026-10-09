@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T11:11:21+00:00",
+ "generated_at": "2026-10-09T11:10:25+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -4240,13 +4240,7 @@
    "tone": "neutral",
    "headline_en": "Watching this price — verdict in 3 days",
    "headline_ar": "بنتابع السعر — الحكم خلال 3 يوم",
-   "quiet_raise": {
-    "raised_on": "2026-08-10",
-    "price_before": 35799.0,
-    "price_after": 40265.7,
-    "raise_pct": 12.5,
-    "still_above_pre_raise_pct": 8.7
-   },
+   "quiet_raise": null,
    "last_seen": "2026-09-18",
    "captured_at": "2026-09-18T09:02:34+00:00",
    "history": [
