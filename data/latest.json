@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:54:34+00:00",
+ "generated_at": "2026-10-12T11:44:27+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -13,10 +13,7 @@
   "learning": 376,
   "fake": 0
  },
- "new_today": [
-  "tomato-paste-2800g",
-  "mini-stepper-ceramic"
- ],
+ "new_today": [],
  "deals": [
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
@@ -484,7 +481,7 @@
      "price": 203.2
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n47742834a",
@@ -944,7 +941,7 @@
      "price": 1790.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-n70109322v",
