@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T11:37:35+00:00",
+ "generated_at": "2026-10-14T09:29:34+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -7,16 +7,343 @@
  },
  "total_tracked": 1879,
  "counts": {
-  "lowest": 0,
+  "lowest": 2,
   "real": 0,
   "dropped": 24,
-  "learning": 376,
+  "learning": 374,
   "fake": 0
  },
  "new_today": [
-  "samsung-s26-ultra-256gb"
+  "iphone-17-256gb-blue",
+  "airfryer-xl-6-2l",
+  "haier-50-qled-tv",
+  "accuchek-strips-50"
  ],
  "deals": [
+  {
+   "sku_id": "iphone-17-256gb-blue",
+   "name_en": "iPhone 17 256GB Mist Blue 5G",
+   "name_ar": "آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z7A646C2F0BD6F44C4760Z/45/_/1779094409/67747d93-e720-4432-9240-e44b32deefbf.jpg?width=1200",
+   "current_price": 1099.0,
+   "baseline_price": 70578.98,
+   "lowest_price": 1099.0,
+   "highest_price": 75554.95,
+   "delta_pct": 98.4,
+   "observed_pct": 98.5,
+   "days_tracked": 14,
+   "verdict": "lowest",
+   "tone": "jade",
+   "headline_en": "Lowest price we've ever recorded",
+   "headline_ar": "أقل سعر سجلناه على الإطلاق",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:25:01+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 65999.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 67790.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 68580.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 68580.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 68580.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 68580.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 75554.95
+    },
+    {
+     "date": "2026-09-18",
+     "price": 75554.95
+    },
+    {
+     "date": "2026-09-19",
+     "price": 75554.95
+    },
+    {
+     "date": "2026-09-20",
+     "price": 75554.95
+    },
+    {
+     "date": "2026-10-11",
+     "price": 75200.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1099.0
+    }
+   ],
+   "is_new": true
+  },
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 1602.0,
+   "baseline_price": 6275.0,
+   "lowest_price": 1602.0,
+   "highest_price": 7199.0,
+   "delta_pct": 74.5,
+   "observed_pct": 77.7,
+   "days_tracked": 14,
+   "verdict": "lowest",
+   "tone": "jade",
+   "headline_en": "Lowest price we've ever recorded",
+   "headline_ar": "أقل سعر سجلناه على الإطلاق",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:26:36+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 6059.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 7199.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1602.0
+    }
+   ],
+   "is_new": true
+  },
+  {
+   "sku_id": "samsung-s26-ultra-256gb",
+   "name_en": "Samsung Galaxy S26 Ultra 256GB Black",
+   "name_ar": "سامسونج جالاكسي S26 ألترا ٢٥٦ جيجا أسود",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
+   "affiliate_url": "https://s.noon.com/Zr0fOrOmu3E",
+   "image": "https://f.nooncdn.com/p/pzsku/Z14441105AC6E5956EAB6Z/45/_/1772091266/7a3e9add-7dd3-4c95-b0d7-31340eb6a06e.jpg?width=1200",
+   "current_price": 499.0,
+   "baseline_price": 64941.15,
+   "lowest_price": 499.0,
+   "highest_price": 71499.0,
+   "delta_pct": 99.2,
+   "observed_pct": 99.3,
+   "days_tracked": 12,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 99.3% in 12 days",
+   "headline_ar": "شفناه بينزل 99.3% في 12 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:24:38+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 69690.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 69000.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 69357.6
+    },
+    {
+     "date": "2026-08-16",
+     "price": 69000.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 70330.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 71499.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 16500.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 499.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "haier-50-qled-tv",
+   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
+   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
+   "current_price": 1955.0,
+   "baseline_price": 17605.83,
+   "lowest_price": 1955.0,
+   "highest_price": 23000.0,
+   "delta_pct": 88.9,
+   "observed_pct": 91.5,
+   "days_tracked": 13,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 91.5% in 13 days",
+   "headline_ar": "شفناه بينزل 91.5% في 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:25:21+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 17270.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 16350.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 23000.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1955.0
+    }
+   ],
+   "is_new": true
+  },
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
    "name_en": "ALFA Automatic Powder Detergent for White and Coloured Clothes Jasmine Fragrance 9 Kg",
@@ -64,78 +391,6 @@
     }
    ],
    "is_new": false
-  },
-  {
-   "sku_id": "samsung-s26-ultra-256gb",
-   "name_en": "Samsung Galaxy S26 Ultra 256GB Black",
-   "name_ar": "سامسونج جالاكسي S26 ألترا ٢٥٦ جيجا أسود",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
-   "affiliate_url": "https://s.noon.com/Zr0fOrOmu3E",
-   "image": "https://f.nooncdn.com/p/pzsku/Z14441105AC6E5956EAB6Z/45/_/1772091266/7a3e9add-7dd3-4c95-b0d7-31340eb6a06e.jpg?width=1200",
-   "current_price": 16500.0,
-   "baseline_price": 69785.26,
-   "lowest_price": 16500.0,
-   "highest_price": 71499.0,
-   "delta_pct": 76.4,
-   "observed_pct": 76.9,
-   "days_tracked": 11,
-   "verdict": "dropped",
-   "tone": "jade",
-   "headline_en": "We watched it fall 76.9% in 11 days",
-   "headline_ar": "شفناه بينزل 76.9% في 11 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-10-13",
-   "captured_at": "2026-10-13T11:32:30+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 69744.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 69744.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 69744.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 69744.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 69690.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 69000.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 69357.6
-    },
-    {
-     "date": "2026-08-16",
-     "price": 69000.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 70330.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 71499.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 16500.0
-    }
-   ],
-   "is_new": true
   },
   {
    "sku_id": "noon-n20426193a",
@@ -186,82 +441,6 @@
    "is_new": false
   },
   {
-   "sku_id": "tomato-paste-2800g",
-   "name_en": "Tomato Paste 2800g",
-   "name_ar": "معجون طماطم ٢٨٠٠ جرام",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
-   "current_price": 125.0,
-   "baseline_price": 247.61,
-   "lowest_price": 125.0,
-   "highest_price": 254.0,
-   "delta_pct": 49.5,
-   "observed_pct": 50.8,
-   "days_tracked": 12,
-   "verdict": "dropped",
-   "tone": "jade",
-   "headline_en": "We watched it fall 50.8% in 12 days",
-   "headline_ar": "شفناه بينزل 50.8% في 12 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-10-13",
-   "captured_at": "2026-10-13T11:30:57+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 254.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 244.25
-    },
-    {
-     "date": "2026-09-18",
-     "price": 244.25
-    },
-    {
-     "date": "2026-10-11",
-     "price": 203.2
-    },
-    {
-     "date": "2026-10-13",
-     "price": 125.0
-    }
-   ],
-   "is_new": false
-  },
-  {
    "sku_id": "noon-n43324935a",
    "name_en": "AMERTEER Adjustable  Waterproof Apron Multicolour",
    "name_ar": "AMERTEER Adjustable  Waterproof Apron Multicolour",
@@ -305,78 +484,6 @@
     {
      "date": "2026-08-16",
      "price": 70.05
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "mini-stepper-ceramic",
-   "name_en": "Ceramic Mini Stepper Steel",
-   "name_ar": "ستيبر ميني ستانلس",
-   "category": "sports",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZE716AC7DCCCAB043AB70Z/45/_/1779790647/95f0c479-49c3-4ef4-8f63-63adfbf727fa.jpg?width=1200",
-   "current_price": 1177.0,
-   "baseline_price": 1958.3,
-   "lowest_price": 1177.0,
-   "highest_price": 1999.0,
-   "delta_pct": 39.9,
-   "observed_pct": 41.1,
-   "days_tracked": 11,
-   "verdict": "dropped",
-   "tone": "jade",
-   "headline_en": "We watched it fall 41.1% in 11 days",
-   "headline_ar": "شفناه بينزل 41.1% في 11 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-10-13",
-   "captured_at": "2026-10-13T11:36:23+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 1900.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 1900.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 1790.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 1177.0
     }
    ],
    "is_new": false
@@ -1094,6 +1201,86 @@
    "is_new": false
   },
   {
+   "sku_id": "accuchek-strips-50",
+   "name_en": "Accu-Chek Instant Blood Glucose 50 Test Strips",
+   "name_ar": "شرائط قياس السكر أكيوتشيك إنستانت ٥٠ شريط",
+   "category": "health",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/accu-chek-instant-blood-glucose-50-test-strips/N20894246A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z93D44108322CA21BFFCDZ/45/_/1777375916/f3633faa-9638-4c80-b339-f60a1d96315a.jpg?width=1200",
+   "current_price": 599.0,
+   "baseline_price": 645.0,
+   "lowest_price": 599.0,
+   "highest_price": 670.0,
+   "delta_pct": 7.1,
+   "observed_pct": 10.6,
+   "days_tracked": 13,
+   "verdict": "dropped",
+   "tone": "jade",
+   "headline_en": "We watched it fall 10.6% in 13 days",
+   "headline_ar": "شفناه بينزل 10.6% في 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:29:06+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 640.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 640.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 670.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 640.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 670.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 640.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 640.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 599.0
+    }
+   ],
+   "is_new": true
+  },
+  {
    "sku_id": "noon-n45731384a",
    "name_en": "Panasonic KX-TG1611 Cordless Phone Black",
    "name_ar": "Panasonic KX-TG1611 Cordless Phone Black",
@@ -1233,6 +1420,86 @@
     {
      "date": "2026-08-16",
      "price": 1428.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "tomato-paste-2800g",
+   "name_en": "Tomato Paste 2800g",
+   "name_ar": "معجون طماطم ٢٨٠٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
+   "current_price": 135.0,
+   "baseline_price": 237.39,
+   "lowest_price": 125.0,
+   "highest_price": 254.0,
+   "delta_pct": 43.1,
+   "observed_pct": 46.9,
+   "days_tracked": 13,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 1 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 1 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:23:13+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 254.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 254.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 244.25
+    },
+    {
+     "date": "2026-09-18",
+     "price": 244.25
+    },
+    {
+     "date": "2026-10-11",
+     "price": 203.2
+    },
+    {
+     "date": "2026-10-13",
+     "price": 125.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 135.0
     }
    ],
    "is_new": false
@@ -1605,6 +1872,82 @@
     {
      "date": "2026-08-16",
      "price": 115.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "mini-stepper-ceramic",
+   "name_en": "Ceramic Mini Stepper Steel",
+   "name_ar": "ستيبر ميني ستانلس",
+   "category": "sports",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/ZE716AC7DCCCAB043AB70Z/45/_/1779790647/95f0c479-49c3-4ef4-8f63-63adfbf727fa.jpg?width=1200",
+   "current_price": 1753.0,
+   "baseline_price": 1887.27,
+   "lowest_price": 1177.0,
+   "highest_price": 1999.0,
+   "delta_pct": 7.1,
+   "observed_pct": 12.3,
+   "days_tracked": 12,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 2 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 2 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-10-14",
+   "captured_at": "2026-10-14T09:28:09+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 1999.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 1900.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 1900.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 1790.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 1177.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1753.0
     }
    ],
    "is_new": false
@@ -4573,82 +4916,6 @@
     {
      "date": "2026-08-16",
      "price": 8700.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "accuchek-strips-50",
-   "name_en": "Accu-Chek Instant Blood Glucose 50 Test Strips",
-   "name_ar": "شرائط قياس السكر أكيوتشيك إنستانت ٥٠ شريط",
-   "category": "health",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/accu-chek-instant-blood-glucose-50-test-strips/N20894246A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z93D44108322CA21BFFCDZ/45/_/1777375916/f3633faa-9638-4c80-b339-f60a1d96315a.jpg?width=1200",
-   "current_price": 640.0,
-   "baseline_price": 645.45,
-   "lowest_price": 640.0,
-   "highest_price": 670.0,
-   "delta_pct": 0.8,
-   "observed_pct": 4.5,
-   "days_tracked": 12,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 2 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 2 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-10-13",
-   "captured_at": "2026-10-13T11:37:19+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 640.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 640.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 670.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 640.0
-    },
-    {
-     "date": "2026-09-19",
-     "price": 670.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 640.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 640.0
     }
    ],
    "is_new": false
@@ -17021,102 +17288,6 @@
     {
      "date": "2026-08-16",
      "price": 472.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "noon-n28991979a",
-   "name_en": "Grandos Ground Instant Arabian Coffee 100grams",
-   "name_ar": "Grandos Ground Instant Arabian Coffee 100grams",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/ground-instant-arabian-coffee-100grams/N28991979A/p/?o=b42bfaa5ee06e38c",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/v1678090303/N28991979A_1.jpg?width=800",
-   "current_price": 406.0,
-   "baseline_price": 406.0,
-   "lowest_price": 406.0,
-   "highest_price": 406.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 13 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:08:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-16",
-     "price": 406.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "noon-n28991990a",
-   "name_en": "Alameed Coffee Light With cardamom 200grams",
-   "name_ar": "Alameed Coffee Light With cardamom 200grams",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/coffee-light-with-cardamom-200grams/N28991990A/p/?o=cb81a7976daf940b",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N28991990A/45/_/1767607351/c3c47cb4-1e0d-4a9b-bd57-2f400e2847d4.jpg?width=800",
-   "current_price": 258.5,
-   "baseline_price": 258.5,
-   "lowest_price": 258.5,
-   "highest_price": 258.5,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 13 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:08:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-16",
-     "price": 258.5
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "noon-n28991991a",
-   "name_en": "Alameed Turkish Medium Coffee With Cardamom 200grams",
-   "name_ar": "Alameed Turkish Medium Coffee With Cardamom 200grams",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/turkish-medium-coffee-with-cardamom-200grams/N28991991A/p/?o=d8bb0a3bfb14839b",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N28991991A/45/_/1747123819/eefd5df3-1d7e-459d-aa3c-01229a45a3a7.jpg?width=800",
-   "current_price": 237.5,
-   "baseline_price": 237.5,
-   "lowest_price": 237.5,
-   "highest_price": 237.5,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 13 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:08:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-16",
-     "price": 237.5
     }
    ],
    "is_new": false
