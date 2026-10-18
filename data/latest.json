@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T08:26:39+00:00",
+ "generated_at": "2026-10-18T08:46:51+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -7,14 +7,118 @@
  },
  "total_tracked": 1879,
  "counts": {
-  "lowest": 1,
-  "real": 5,
+  "lowest": 2,
+  "real": 6,
   "dropped": 21,
-  "learning": 373,
+  "learning": 371,
   "fake": 0
  },
- "new_today": [],
+ "new_today": [
+  "airfryer-xl-6-2l",
+  "bits-keys-set-219pc",
+  "samsung-s26-ultra-256gb"
+ ],
  "deals": [
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 1200.0,
+   "baseline_price": 5877.89,
+   "lowest_price": 1200.0,
+   "highest_price": 7999.0,
+   "delta_pct": 79.6,
+   "observed_pct": 85.0,
+   "days_tracked": 18,
+   "verdict": "lowest",
+   "tone": "jade",
+   "headline_en": "Lowest price we've ever recorded",
+   "headline_ar": "أقل سعر سجلناه على الإطلاق",
+   "quiet_raise": null,
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:44:12+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 6059.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 7199.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1602.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 1549.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 7199.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 1200.0
+    }
+   ],
+   "is_new": true
+  },
   {
    "sku_id": "black-tea-500g",
    "name_en": "Black Tea 500g",
@@ -26,19 +130,19 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/79d97dcaae2453bdb2b27a3810e3bfd2|pzsku/Z381EC15AEC5299666293Z/45/1769440495/9d598c61-3df7-4a24-85f7-fb33e5963ac2.jpg?width=1200",
    "current_price": 120.0,
-   "baseline_price": 124.02,
+   "baseline_price": 123.8,
    "lowest_price": 120.0,
    "highest_price": 139.0,
-   "delta_pct": 3.2,
+   "delta_pct": 3.1,
    "observed_pct": 13.7,
-   "days_tracked": 18,
+   "days_tracked": 19,
    "verdict": "lowest",
    "tone": "jade",
    "headline_en": "Lowest price we've ever recorded",
    "headline_ar": "أقل سعر سجلناه على الإطلاق",
    "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:19:41+00:00",
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:39:17+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -111,105 +215,97 @@
     {
      "date": "2026-10-17",
      "price": 120.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 120.0
     }
    ],
    "is_new": false
   },
   {
-   "sku_id": "ps5-slim-disc",
-   "name_en": "PlayStation 5 Slim Disc Version",
-   "name_ar": "بلايستيشن ٥ سليم ديسك",
-   "category": "electronics",
+   "sku_id": "bits-keys-set-219pc",
+   "name_en": "219-Piece Bits and Keys Set",
+   "name_ar": "طقم مفكات ومفاتيح ٢١٩ قطعة",
+   "category": "tools",
    "retailer": "noon",
    "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
+   "url": "https://www.noon.com/egypt-en/219-piece-bits-and-keys-set/N39672695A/p/",
    "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
-   "current_price": 2023.0,
-   "baseline_price": 34905.51,
-   "lowest_price": 905.0,
-   "highest_price": 41086.55,
-   "delta_pct": 94.2,
-   "observed_pct": 95.1,
-   "days_tracked": 17,
+   "image": "https://f.nooncdn.com/p/v1601286034/N39672695A_1.jpg?width=1200",
+   "current_price": 1023.0,
+   "baseline_price": 5370.92,
+   "lowest_price": 910.0,
+   "highest_price": 9240.0,
+   "delta_pct": 81.0,
+   "observed_pct": 88.9,
+   "days_tracked": 14,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 94.2% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 94.2% من سعره المعتاد",
+   "headline_en": "Real deal — 81.0% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 81.0% من سعره المعتاد",
    "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:23:33+00:00",
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:45:24+00:00",
    "history": [
     {
-     "date": "2026-08-09",
-     "price": 35799.0
-    },
-    {
      "date": "2026-08-10",
-     "price": 40265.7
+     "price": 5990.0
     },
     {
      "date": "2026-08-11",
-     "price": 40265.7
+     "price": 5990.0
     },
     {
      "date": "2026-08-12",
-     "price": 39674.35
+     "price": 5990.0
     },
     {
      "date": "2026-08-13",
-     "price": 39022.4
+     "price": 5990.0
     },
     {
      "date": "2026-08-14",
-     "price": 40265.7
+     "price": 5990.0
     },
     {
      "date": "2026-08-15",
-     "price": 40235.45
+     "price": 5990.0
     },
     {
      "date": "2026-08-16",
-     "price": 39331.4
-    },
-    {
-     "date": "2026-09-12",
-     "price": 39783.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 39029.25
-    },
-    {
-     "date": "2026-09-18",
-     "price": 38902.9
+     "price": 5990.0
     },
     {
      "date": "2026-10-11",
-     "price": 40949.0
+     "price": 6590.0
     },
     {
      "date": "2026-10-13",
-     "price": 41086.55
+     "price": 9240.0
     },
     {
      "date": "2026-10-14",
-     "price": 41084.8
+     "price": 9240.0
     },
     {
      "date": "2026-10-15",
-     "price": 905.0
+     "price": 912.0
     },
     {
      "date": "2026-10-16",
-     "price": 1888.0
+     "price": 910.0
     },
     {
      "date": "2026-10-17",
-     "price": 2023.0
+     "price": 1000.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 1023.0
     }
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "sku_id": "haier-50-qled-tv",
@@ -221,20 +317,20 @@
    "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
-   "current_price": 2250.0,
-   "baseline_price": 14664.93,
+   "current_price": 2650.0,
+   "baseline_price": 13889.0,
    "lowest_price": 1955.0,
    "highest_price": 23000.0,
-   "delta_pct": 84.7,
-   "observed_pct": 90.2,
-   "days_tracked": 16,
+   "delta_pct": 80.9,
+   "observed_pct": 88.5,
+   "days_tracked": 17,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 84.7% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 84.7% من سعره المعتاد",
+   "headline_en": "Real deal — 80.9% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 80.9% من سعره المعتاد",
    "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:23:13+00:00",
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:43:01+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -299,9 +395,105 @@
     {
      "date": "2026-10-17",
      "price": 2250.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 2650.0
     }
    ],
    "is_new": false
+  },
+  {
+   "sku_id": "samsung-s26-ultra-256gb",
+   "name_en": "Samsung Galaxy S26 Ultra 256GB Black",
+   "name_ar": "سامسونج جالاكسي S26 ألترا ٢٥٦ جيجا أسود",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
+   "affiliate_url": "https://s.noon.com/Zr0fOrOmu3E",
+   "image": "https://f.nooncdn.com/p/pzsku/Z14441105AC6E5956EAB6Z/45/_/1772091266/7a3e9add-7dd3-4c95-b0d7-31340eb6a06e.jpg?width=1200",
+   "current_price": 11999.0,
+   "baseline_price": 52518.37,
+   "lowest_price": 499.0,
+   "highest_price": 71499.0,
+   "delta_pct": 77.2,
+   "observed_pct": 83.2,
+   "days_tracked": 16,
+   "verdict": "real",
+   "tone": "jade",
+   "headline_en": "Real deal — 77.2% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 77.2% من سعره المعتاد",
+   "quiet_raise": null,
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:42:09+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 69744.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 69690.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 69000.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 69357.6
+    },
+    {
+     "date": "2026-08-16",
+     "price": 69000.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 70330.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 71499.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 16500.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 499.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 675.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 750.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 71499.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 11999.0
+    }
+   ],
+   "is_new": true
   },
   {
    "sku_id": "iphone-17-256gb-blue",
@@ -313,20 +505,26 @@
    "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/Z7A646C2F0BD6F44C4760Z/45/_/1779094409/67747d93-e720-4432-9240-e44b32deefbf.jpg?width=1200",
-   "current_price": 11999.0,
-   "baseline_price": 58454.68,
+   "current_price": 15936.0,
+   "baseline_price": 55721.99,
    "lowest_price": 1099.0,
    "highest_price": 75554.95,
-   "delta_pct": 79.5,
-   "observed_pct": 84.1,
-   "days_tracked": 17,
+   "delta_pct": 71.4,
+   "observed_pct": 78.9,
+   "days_tracked": 18,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 79.5% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 79.5% من سعره المعتاد",
-   "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:22:48+00:00",
+   "headline_en": "Real deal — 71.4% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 71.4% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-10-16",
+    "price_before": 2850.0,
+    "price_after": 13799.0,
+    "raise_pct": 384.2,
+    "still_above_pre_raise_pct": 459.2
+   },
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:42:37+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -395,6 +593,10 @@
     {
      "date": "2026-10-17",
      "price": 11999.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 15936.0
     }
    ],
    "is_new": false
@@ -516,19 +718,19 @@
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
    "current_price": 126.0,
-   "baseline_price": 214.18,
+   "baseline_price": 208.67,
    "lowest_price": 110.0,
    "highest_price": 254.0,
-   "delta_pct": 41.2,
+   "delta_pct": 39.6,
    "observed_pct": 50.4,
-   "days_tracked": 16,
+   "days_tracked": 17,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 41.2% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 41.2% من سعره المعتاد",
+   "headline_en": "Real deal — 39.6% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 39.6% من سعره المعتاد",
    "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:21:02+00:00",
+   "last_seen": "2026-10-18",
+   "captured_at": "2026-10-18T08:40:44+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -592,6 +794,10 @@
     },
     {
      "date": "2026-10-17",
+     "price": 126.0
+    },
+    {
+     "date": "2026-10-18",
      "price": 126.0
     }
    ],
@@ -1593,86 +1799,6 @@
     {
      "date": "2026-08-16",
      "price": 1428.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "bits-keys-set-219pc",
-   "name_en": "219-Piece Bits and Keys Set",
-   "name_ar": "طقم مفكات ومفاتيح ٢١٩ قطعة",
-   "category": "tools",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/219-piece-bits-and-keys-set/N39672695A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/v1601286034/N39672695A_1.jpg?width=1200",
-   "current_price": 1000.0,
-   "baseline_price": 5735.17,
-   "lowest_price": 910.0,
-   "highest_price": 9240.0,
-   "delta_pct": 82.6,
-   "observed_pct": 89.2,
-   "days_tracked": 13,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 1 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 1 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-10-17",
-   "captured_at": "2026-10-17T08:25:20+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 5990.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 6590.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 9240.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 9240.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 912.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 910.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 1000.0
     }
    ],
    "is_new": false
@@ -17353,38 +17479,6 @@
     {
      "date": "2026-08-16",
      "price": 259.95
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "noon-n28991918a",
-   "name_en": "Alameed Turkish Coffee Medium Without Cardamom 200grams",
-   "name_ar": "Alameed Turkish Coffee Medium Without Cardamom 200grams",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/turkish-coffee-medium-without-cardamom-200grams/N28991918A/p/?o=e55cdd4aa6c942ed",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N28991918A/45/_/1770552838/d11e01d2-8167-4198-8098-4a1d659ec198.jpg?width=800",
-   "current_price": 472.0,
-   "baseline_price": 472.0,
-   "lowest_price": 472.0,
-   "highest_price": 472.0,
-   "delta_pct": 0.0,
-   "observed_pct": 0.0,
-   "days_tracked": 1,
-   "verdict": "learning",
-   "tone": "neutral",
-   "headline_en": "Watching this price — verdict in 13 days",
-   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
-   "quiet_raise": null,
-   "last_seen": "2026-08-16",
-   "captured_at": "2026-08-16T19:08:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-16",
-     "price": 472.0
     }
    ],
    "is_new": false
