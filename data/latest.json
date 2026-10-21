@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T09:21:39+00:00",
+ "generated_at": "2026-10-21T09:12:22+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -13,11 +13,7 @@
   "learning": 373,
   "fake": 0
  },
- "new_today": [
-  "iphone-17-256gb-blue",
-  "airfryer-xl-6-2l",
-  "mini-stepper-ceramic"
- ],
+ "new_today": [],
  "deals": [
   {
    "sku_id": "samsung-s26-ultra-256gb",
@@ -225,7 +221,7 @@
      "price": 541.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "airfryer-xl-6-2l",
@@ -333,7 +329,7 @@
      "price": 1093.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "mini-stepper-ceramic",
@@ -433,7 +429,7 @@
      "price": 950.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "tomato-paste-2800g",
