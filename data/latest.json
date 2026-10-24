@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:17:46+00:00",
+ "generated_at": "2026-10-24T08:50:24+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -7,18 +7,140 @@
  },
  "total_tracked": 1879,
  "counts": {
-  "lowest": 3,
-  "real": 6,
+  "lowest": 1,
+  "real": 5,
   "dropped": 21,
-  "learning": 370,
+  "learning": 373,
   "fake": 0
  },
  "new_today": [
-  "bits-keys-set-219pc",
-  "haier-50-qled-tv",
-  "mens-deo-dark-wood-50ml"
+  "black-tea-500g"
  ],
  "deals": [
+  {
+   "sku_id": "black-tea-500g",
+   "name_en": "Black Tea 500g",
+   "name_ar": "شاي أسود ٥٠٠ جرام",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/black-tea-500g/Z381EC15AEC5299666293Z/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/79d97dcaae2453bdb2b27a3810e3bfd2|pzsku/Z381EC15AEC5299666293Z/45/1769440495/9d598c61-3df7-4a24-85f7-fb33e5963ac2.jpg?width=1200",
+   "current_price": 120.0,
+   "baseline_price": 126.28,
+   "lowest_price": 120.0,
+   "highest_price": 139.0,
+   "delta_pct": 5.0,
+   "observed_pct": 13.7,
+   "days_tracked": 24,
+   "verdict": "lowest",
+   "tone": "jade",
+   "headline_en": "Lowest price we've ever recorded",
+   "headline_ar": "أقل سعر سجلناه على الإطلاق",
+   "quiet_raise": null,
+   "last_seen": "2026-10-24",
+   "captured_at": "2026-10-24T08:43:28+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 120.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 120.0
+    },
+    {
+     "date": "2026-09-16",
+     "price": 125.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 125.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 125.0
+    },
+    {
+     "date": "2026-09-20",
+     "price": 125.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 130.35
+    },
+    {
+     "date": "2026-10-13",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 120.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 120.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 120.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 120.0
+    },
+    {
+     "date": "2026-10-19",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-20",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-22",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-23",
+     "price": 139.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 120.0
+    }
+   ],
+   "is_new": true
+  },
   {
    "sku_id": "samsung-s26-ultra-256gb",
    "name_en": "Samsung Galaxy S26 Ultra 256GB Black",
@@ -29,20 +151,26 @@
    "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
    "affiliate_url": "https://s.noon.com/Zr0fOrOmu3E",
    "image": "https://f.nooncdn.com/p/pzsku/Z14441105AC6E5956EAB6Z/45/_/1772091266/7a3e9add-7dd3-4c95-b0d7-31340eb6a06e.jpg?width=1200",
-   "current_price": 399.0,
-   "baseline_price": 42169.03,
+   "current_price": 449.0,
+   "baseline_price": 40080.53,
    "lowest_price": 399.0,
    "highest_price": 71499.0,
-   "delta_pct": 99.1,
+   "delta_pct": 98.9,
    "observed_pct": 99.4,
-   "days_tracked": 20,
-   "verdict": "lowest",
+   "days_tracked": 21,
+   "verdict": "real",
    "tone": "jade",
-   "headline_en": "Lowest price we've ever recorded",
-   "headline_ar": "أقل سعر سجلناه على الإطلاق",
-   "quiet_raise": null,
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:13:04+00:00",
+   "headline_en": "Real deal — 98.9% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 98.9% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-10-22",
+    "price_before": 399.0,
+    "price_after": 588.0,
+    "raise_pct": 47.4,
+    "still_above_pre_raise_pct": 12.5
+   },
+   "last_seen": "2026-10-24",
+   "captured_at": "2026-10-24T08:46:18+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -123,230 +251,10 @@
     {
      "date": "2026-10-23",
      "price": 399.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "detergent-oriental-9kg",
-   "name_en": "Automatic Powder Detergent Oriental 9kg",
-   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
-   "current_price": 186.0,
-   "baseline_price": 440.84,
-   "lowest_price": 186.0,
-   "highest_price": 550.0,
-   "delta_pct": 57.8,
-   "observed_pct": 66.2,
-   "days_tracked": 21,
-   "verdict": "lowest",
-   "tone": "jade",
-   "headline_en": "Lowest price we've ever recorded",
-   "headline_ar": "أقل سعر سجلناه على الإطلاق",
-   "quiet_raise": null,
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:10:51+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 550.0
     },
     {
-     "date": "2026-08-10",
-     "price": 529.95
-    },
-    {
-     "date": "2026-08-11",
-     "price": 529.95
-    },
-    {
-     "date": "2026-08-12",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 515.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 515.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 519.95
-    },
-    {
-     "date": "2026-09-18",
-     "price": 519.95
-    },
-    {
-     "date": "2026-09-19",
-     "price": 519.95
-    },
-    {
-     "date": "2026-09-20",
-     "price": 519.95
-    },
-    {
-     "date": "2026-10-11",
-     "price": 519.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 519.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 519.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 211.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 186.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 211.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 199.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 188.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 186.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "tomato-paste-2800g",
-   "name_en": "Tomato Paste 2800g",
-   "name_ar": "معجون طماطم ٢٨٠٠ جرام",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
-   "current_price": 94.5,
-   "baseline_price": 191.49,
-   "lowest_price": 94.5,
-   "highest_price": 254.0,
-   "delta_pct": 50.7,
-   "observed_pct": 62.8,
-   "days_tracked": 21,
-   "verdict": "lowest",
-   "tone": "jade",
-   "headline_en": "Lowest price we've ever recorded",
-   "headline_ar": "أقل سعر سجلناه على الإطلاق",
-   "quiet_raise": null,
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:11:42+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 254.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 254.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 244.25
-    },
-    {
-     "date": "2026-09-18",
-     "price": 244.25
-    },
-    {
-     "date": "2026-10-11",
-     "price": 203.2
-    },
-    {
-     "date": "2026-10-13",
-     "price": 125.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 135.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 110.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 119.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 126.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 126.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 120.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 106.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 94.5
+     "date": "2026-10-24",
+     "price": 449.0
     }
    ],
    "is_new": false
@@ -361,26 +269,26 @@
    "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
-   "current_price": 1199.0,
-   "baseline_price": 33110.4,
+   "current_price": 2299.0,
+   "baseline_price": 31659.88,
    "lowest_price": 905.0,
    "highest_price": 49000.0,
-   "delta_pct": 96.4,
-   "observed_pct": 97.6,
-   "days_tracked": 22,
+   "delta_pct": 92.7,
+   "observed_pct": 95.3,
+   "days_tracked": 23,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 96.4% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 96.4% من سعره المعتاد",
+   "headline_en": "Real deal — 92.7% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 92.7% من سعره المعتاد",
    "quiet_raise": {
-    "raised_on": "2026-10-16",
-    "price_before": 905.0,
-    "price_after": 1888.0,
-    "raise_pct": 108.6,
-    "still_above_pre_raise_pct": 32.5
+    "raised_on": "2026-10-18",
+    "price_before": 2023.0,
+    "price_after": 49000.0,
+    "raise_pct": 2322.1,
+    "still_above_pre_raise_pct": 13.6
    },
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:14:11+00:00",
+   "last_seen": "2026-10-24",
+   "captured_at": "2026-10-24T08:47:22+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -469,6 +377,132 @@
     {
      "date": "2026-10-23",
      "price": 1199.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 2299.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "haier-50-qled-tv",
+   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
+   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
+   "current_price": 2650.0,
+   "baseline_price": 14191.62,
+   "lowest_price": 1955.0,
+   "highest_price": 23000.0,
+   "delta_pct": 81.3,
+   "observed_pct": 88.5,
+   "days_tracked": 22,
+   "verdict": "real",
+   "tone": "jade",
+   "headline_en": "Real deal — 81.3% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 81.3% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-10-15",
+    "price_before": 1955.0,
+    "price_after": 3750.0,
+    "raise_pct": 91.8,
+    "still_above_pre_raise_pct": 35.5
+   },
+   "last_seen": "2026-10-24",
+   "captured_at": "2026-10-24T08:47:01+00:00",
+   "history": [
+    {
+     "date": "2026-08-09",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-10",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 17350.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-14",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 17270.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 17100.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 16350.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 23000.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1955.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 3750.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 2999.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 2250.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 2650.0
+    },
+    {
+     "date": "2026-10-19",
+     "price": 23000.0
+    },
+    {
+     "date": "2026-10-20",
+     "price": 23000.0
+    },
+    {
+     "date": "2026-10-22",
+     "price": 23000.0
+    },
+    {
+     "date": "2026-10-23",
+     "price": 4150.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 2650.0
     }
    ],
    "is_new": false
@@ -577,483 +611,129 @@
      "price": 1090.0
     }
    ],
-   "is_new": true
-  },
-  {
-   "sku_id": "haier-50-qled-tv",
-   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
-   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
-   "current_price": 4150.0,
-   "baseline_price": 14693.7,
-   "lowest_price": 1955.0,
-   "highest_price": 23000.0,
-   "delta_pct": 71.8,
-   "observed_pct": 82.0,
-   "days_tracked": 21,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 71.8% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 71.8% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-10-19",
-    "price_before": 2650.0,
-    "price_after": 23000.0,
-    "raise_pct": 767.9,
-    "still_above_pre_raise_pct": 56.6
-   },
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:13:50+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 17270.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-09-19",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 16350.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 1955.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 3750.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 2999.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 2250.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 2650.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 4150.0
-    }
-   ],
-   "is_new": true
-  },
-  {
-   "sku_id": "airfryer-xl-6-2l",
-   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
-   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
-   "current_price": 1650.0,
-   "baseline_price": 5299.05,
-   "lowest_price": 1093.0,
-   "highest_price": 7999.0,
-   "delta_pct": 68.9,
-   "observed_pct": 79.4,
-   "days_tracked": 22,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 68.9% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 68.9% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-10-19",
-    "price_before": 1200.0,
-    "price_after": 7199.0,
-    "raise_pct": 499.9,
-    "still_above_pre_raise_pct": 37.5
-   },
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:15:09+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 6204.35
-    },
-    {
-     "date": "2026-08-11",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 6279.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 6241.7
-    },
-    {
-     "date": "2026-09-12",
-     "price": 6179.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 6099.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 6099.0
-    },
-    {
-     "date": "2026-09-19",
-     "price": 6099.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 6059.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 7199.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 1602.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 1549.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 7199.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 7999.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 1200.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 7199.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 1093.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 1864.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 1650.0
-    }
-   ],
    "is_new": false
   },
   {
-   "sku_id": "mini-stepper-ceramic",
-   "name_en": "Ceramic Mini Stepper Steel",
-   "name_ar": "ستيبر ميني ستانلس",
-   "category": "sports",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/ceramic-mini-stepper-steel/N42355312A/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZE716AC7DCCCAB043AB70Z/45/_/1779790647/95f0c479-49c3-4ef4-8f63-63adfbf727fa.jpg?width=1200",
-   "current_price": 1095.0,
-   "baseline_price": 1787.42,
-   "lowest_price": 950.0,
-   "highest_price": 1999.0,
-   "delta_pct": 38.7,
-   "observed_pct": 45.2,
-   "days_tracked": 20,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 38.7% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 38.7% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-10-22",
-    "price_before": 950.0,
-    "price_after": 1499.0,
-    "raise_pct": 57.8,
-    "still_above_pre_raise_pct": 15.3
-   },
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:16:47+00:00",
-   "history": [
-    {
-     "date": "2026-08-10",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-13",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-09-16",
-     "price": 1900.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 1900.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 1790.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 1177.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 1753.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 1700.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 1602.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 1699.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 1999.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 950.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 1499.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 1095.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "mens-deo-dark-wood-50ml",
-   "name_en": "Men Deep Black Carbon Antiperspirant Roll-On 50ml",
-   "name_ar": "مزيل عرق رجالي ديب بلاك كاربون ٥٠ مل",
+   "sku_id": "detergent-oriental-9kg",
+   "name_en": "Automatic Powder Detergent Oriental 9kg",
+   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
    "category": "supermarket",
    "retailer": "noon",
    "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/men-deep-black-carbon-dark-wood-antiperspirant-antibacterial-roll-on-dark-wood-50ml/N15767861A/p/",
+   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
    "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pnsku/N15767861A/45/_/1767607876/0eb84ad8-32b1-4d4f-877d-f223c3371966.jpg?width=1200",
-   "current_price": 90.0,
-   "baseline_price": 126.51,
-   "lowest_price": 72.68,
-   "highest_price": 237.0,
-   "delta_pct": 28.9,
-   "observed_pct": 62.0,
+   "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
+   "current_price": 188.0,
+   "baseline_price": 428.7,
+   "lowest_price": 186.0,
+   "highest_price": 550.0,
+   "delta_pct": 56.1,
+   "observed_pct": 65.8,
    "days_tracked": 22,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 28.9% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 28.9% من سعره المعتاد",
+   "headline_en": "Real deal — 56.1% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 56.1% من سعره المعتاد",
    "quiet_raise": {
-    "raised_on": "2026-10-11",
-    "price_before": 75.0,
-    "price_after": 106.0,
-    "raise_pct": 41.3,
-    "still_above_pre_raise_pct": 20.0
+    "raised_on": "2026-10-17",
+    "price_before": 186.0,
+    "price_after": 211.0,
+    "raise_pct": 13.4,
+    "still_above_pre_raise_pct": 1.1
    },
-   "last_seen": "2026-10-23",
-   "captured_at": "2026-10-23T09:14:40+00:00",
+   "last_seen": "2026-10-24",
+   "captured_at": "2026-10-24T08:44:15+00:00",
    "history": [
     {
+     "date": "2026-08-09",
+     "price": 550.0
+    },
+    {
      "date": "2026-08-10",
-     "price": 72.68
+     "price": 529.95
     },
     {
      "date": "2026-08-11",
-     "price": 72.68
+     "price": 529.95
     },
     {
      "date": "2026-08-12",
-     "price": 72.68
+     "price": 515.0
     },
     {
      "date": "2026-08-13",
-     "price": 72.68
+     "price": 515.0
     },
     {
      "date": "2026-08-14",
-     "price": 72.68
+     "price": 515.0
     },
     {
      "date": "2026-08-15",
-     "price": 72.68
+     "price": 515.0
     },
     {
      "date": "2026-08-16",
-     "price": 72.68
-    },
-    {
-     "date": "2026-09-12",
-     "price": 75.0
+     "price": 515.0
     },
     {
      "date": "2026-09-16",
-     "price": 83.0
+     "price": 519.95
     },
     {
      "date": "2026-09-18",
-     "price": 75.0
+     "price": 519.95
     },
     {
      "date": "2026-09-19",
-     "price": 75.0
+     "price": 519.95
+    },
+    {
+     "date": "2026-09-20",
+     "price": 519.95
     },
     {
      "date": "2026-10-11",
-     "price": 106.0
+     "price": 519.0
     },
     {
      "date": "2026-10-13",
-     "price": 123.0
+     "price": 519.0
     },
     {
      "date": "2026-10-14",
-     "price": 235.0
+     "price": 519.0
     },
     {
      "date": "2026-10-15",
-     "price": 221.0
+     "price": 211.0
     },
     {
      "date": "2026-10-16",
-     "price": 222.0
+     "price": 186.0
     },
     {
      "date": "2026-10-17",
-     "price": 123.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 237.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 207.0
+     "price": 211.0
     },
     {
      "date": "2026-10-20",
-     "price": 196.0
+     "price": 199.0
     },
     {
      "date": "2026-10-22",
-     "price": 170.0
+     "price": 188.0
     },
     {
      "date": "2026-10-23",
-     "price": 90.0
+     "price": 186.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 188.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
@@ -17699,6 +17379,102 @@
     {
      "date": "2026-08-16",
      "price": 366.67
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28968548a",
+   "name_en": "Nescafe Classic Sachet 200grams",
+   "name_ar": "Nescafe Classic Sachet 200grams",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/classic-sachet-200grams/N28968548A/p/?o=a5d5320c5ec9fa0a",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3415EE315F832E69C670Z/45/_/1779094105/b20a7407-b98d-4f4f-a804-c1daab6eaba0.jpg?width=800",
+   "current_price": 259.95,
+   "baseline_price": 259.95,
+   "lowest_price": 259.95,
+   "highest_price": 259.95,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 259.95
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28991918a",
+   "name_en": "Alameed Turkish Coffee Medium Without Cardamom 200grams",
+   "name_ar": "Alameed Turkish Coffee Medium Without Cardamom 200grams",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/turkish-coffee-medium-without-cardamom-200grams/N28991918A/p/?o=e55cdd4aa6c942ed",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N28991918A/45/_/1770552838/d11e01d2-8167-4198-8098-4a1d659ec198.jpg?width=800",
+   "current_price": 472.0,
+   "baseline_price": 472.0,
+   "lowest_price": 472.0,
+   "highest_price": 472.0,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 472.0
+    }
+   ],
+   "is_new": false
+  },
+  {
+   "sku_id": "noon-n28991979a",
+   "name_en": "Grandos Ground Instant Arabian Coffee 100grams",
+   "name_ar": "Grandos Ground Instant Arabian Coffee 100grams",
+   "category": "supermarket",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/ground-instant-arabian-coffee-100grams/N28991979A/p/?o=b42bfaa5ee06e38c",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/v1678090303/N28991979A_1.jpg?width=800",
+   "current_price": 406.0,
+   "baseline_price": 406.0,
+   "lowest_price": 406.0,
+   "highest_price": 406.0,
+   "delta_pct": 0.0,
+   "observed_pct": 0.0,
+   "days_tracked": 1,
+   "verdict": "learning",
+   "tone": "neutral",
+   "headline_en": "Watching this price — verdict in 13 days",
+   "headline_ar": "بنتابع السعر — الحكم خلال 13 يوم",
+   "quiet_raise": null,
+   "last_seen": "2026-08-16",
+   "captured_at": "2026-08-16T19:08:42+00:00",
+   "history": [
+    {
+     "date": "2026-08-16",
+     "price": 406.0
     }
    ],
    "is_new": false
