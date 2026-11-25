@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T14:45:06+00:00",
+ "generated_at": "2026-11-25T14:05:38+00:00",
  "schema_version": 2,
  "thresholds": {
   "min_days": 14,
@@ -14,205 +14,215 @@
   "fake": 0
  },
  "new_today": [
-  "samsung-s26-ultra-256gb",
-  "ps5-slim-disc"
+  "detergent-oriental-9kg",
+  "airfryer-xl-6-2l",
+  "buzz-lightyear-figure-12in",
+  "hair-beader-2in1"
  ],
  "deals": [
   {
-   "sku_id": "women-blouse-longsleeve",
-   "name_en": "Women Blouse with Long Sleeves",
-   "name_ar": "بلوزة نسائية بأكمام طويلة",
-   "category": "fashion",
+   "sku_id": "detergent-oriental-9kg",
+   "name_en": "Automatic Powder Detergent Oriental 9kg",
+   "name_ar": "مسحوق غسيل أوتوماتيك أورينتال ٩ كجم",
+   "category": "supermarket",
    "retailer": "noon",
    "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/women-blouse-with-long-sleeves/ZCDEB88BA5BACE03A1A14Z/p/",
+   "url": "https://www.noon.com/egypt-en/automatic-powder-detergent-oriental-8-1kg-9kg/N52141751A/p/",
    "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/ZCDEB88BA5BACE03A1A14Z/45/_/1717579314/f761ef44-d42b-4a62-8104-d5d1d729a478.jpg?width=1200",
-   "current_price": 277.0,
-   "baseline_price": 375.83,
-   "lowest_price": 277.0,
-   "highest_price": 606.0,
-   "delta_pct": 26.3,
-   "observed_pct": 54.3,
-   "days_tracked": 54,
+   "image": "https://f.nooncdn.com/p/pnsku/N52141751A/45/_/1698145201/d946f074-c1c6-447c-94c5-d7503d943ada.jpg?width=1200",
+   "current_price": 86.67,
+   "baseline_price": 344.64,
+   "lowest_price": 86.67,
+   "highest_price": 1080.8,
+   "delta_pct": 74.9,
+   "observed_pct": 92.0,
+   "days_tracked": 53,
    "verdict": "lowest",
    "tone": "jade",
    "headline_en": "Lowest price we've ever recorded",
    "headline_ar": "أقل سعر سجلناه على الإطلاق",
    "quiet_raise": null,
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:39:52+00:00",
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T13:59:18+00:00",
    "history": [
     {
      "date": "2026-08-09",
-     "price": 289.0
+     "price": 550.0
     },
     {
      "date": "2026-08-10",
-     "price": 289.0
+     "price": 529.95
     },
     {
      "date": "2026-08-11",
-     "price": 289.0
+     "price": 529.95
     },
     {
      "date": "2026-08-12",
-     "price": 289.0
+     "price": 515.0
     },
     {
      "date": "2026-08-14",
-     "price": 289.0
+     "price": 515.0
     },
     {
      "date": "2026-08-15",
-     "price": 289.0
+     "price": 515.0
     },
     {
      "date": "2026-08-16",
-     "price": 289.0
+     "price": 515.0
     },
     {
      "date": "2026-09-16",
-     "price": 289.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 289.0
+     "price": 519.95
     },
     {
      "date": "2026-09-19",
-     "price": 289.0
+     "price": 519.95
+    },
+    {
+     "date": "2026-09-20",
+     "price": 519.95
+    },
+    {
+     "date": "2026-10-11",
+     "price": 519.0
     },
     {
      "date": "2026-10-13",
-     "price": 420.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 445.0
+     "price": 519.0
     },
     {
      "date": "2026-10-15",
-     "price": 445.0
+     "price": 211.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 186.0
     },
     {
      "date": "2026-10-17",
-     "price": 301.0
+     "price": 211.0
     },
     {
-     "date": "2026-10-18",
-     "price": 399.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 467.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 410.0
+     "date": "2026-10-20",
+     "price": 199.0
     },
     {
      "date": "2026-10-23",
-     "price": 480.0
+     "price": 186.0
     },
     {
      "date": "2026-10-24",
-     "price": 346.0
+     "price": 188.0
+    },
+    {
+     "date": "2026-10-25",
+     "price": 519.0
     },
     {
      "date": "2026-10-26",
-     "price": 480.0
+     "price": 197.0
     },
     {
      "date": "2026-10-27",
-     "price": 420.0
+     "price": 1080.8
     },
     {
      "date": "2026-10-28",
-     "price": 385.0
+     "price": 240.0
     },
     {
      "date": "2026-10-29",
-     "price": 480.0
+     "price": 207.0
     },
     {
-     "date": "2026-11-01",
-     "price": 419.0
+     "date": "2026-10-30",
+     "price": 216.0
     },
     {
      "date": "2026-11-02",
-     "price": 539.0
+     "price": 205.0
     },
     {
      "date": "2026-11-03",
-     "price": 355.0
+     "price": 171.98
+    },
+    {
+     "date": "2026-11-04",
+     "price": 180.0
     },
     {
      "date": "2026-11-05",
-     "price": 306.0
-    },
-    {
-     "date": "2026-11-06",
-     "price": 359.0
+     "price": 207.0
     },
     {
      "date": "2026-11-07",
-     "price": 296.0
+     "price": 189.0
+    },
+    {
+     "date": "2026-11-08",
+     "price": 176.0
     },
     {
      "date": "2026-11-09",
-     "price": 480.0
+     "price": 155.0
     },
     {
      "date": "2026-11-10",
-     "price": 320.0
+     "price": 181.0
     },
     {
-     "date": "2026-11-11",
-     "price": 606.0
+     "date": "2026-11-12",
+     "price": 484.95
     },
     {
      "date": "2026-11-13",
-     "price": 290.0
+     "price": 183.0
     },
     {
      "date": "2026-11-14",
-     "price": 290.0
+     "price": 490.0
     },
     {
      "date": "2026-11-15",
-     "price": 354.0
+     "price": 210.0
     },
     {
      "date": "2026-11-17",
-     "price": 480.0
+     "price": 199.95
     },
     {
      "date": "2026-11-18",
-     "price": 480.0
+     "price": 220.0
     },
     {
      "date": "2026-11-19",
-     "price": 299.0
+     "price": 200.0
     },
     {
-     "date": "2026-11-21",
-     "price": 425.0
+     "date": "2026-11-20",
+     "price": 542.0
     },
     {
      "date": "2026-11-22",
-     "price": 349.0
+     "price": 191.0
     },
     {
      "date": "2026-11-23",
-     "price": 277.0
+     "price": 200.0
     },
     {
      "date": "2026-11-24",
-     "price": 277.0
+     "price": 499.0
+    },
+    {
+     "date": "2026-11-25",
+     "price": 86.67
     }
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "sku_id": "samsung-s26-ultra-256gb",
@@ -224,26 +234,26 @@
    "url": "https://www.noon.com/egypt-en/galaxy-s26-ultra-dual-sim-black-12gb-ram-256gb-5g-middle-east-version/N70283855V/p/",
    "affiliate_url": "https://s.noon.com/Zr0fOrOmu3E",
    "image": "https://f.nooncdn.com/p/pzsku/Z14441105AC6E5956EAB6Z/45/_/1772091266/7a3e9add-7dd3-4c95-b0d7-31340eb6a06e.jpg?width=1200",
-   "current_price": 2799.0,
-   "baseline_price": 43517.07,
+   "current_price": 869.0,
+   "baseline_price": 42718.68,
    "lowest_price": 163.0,
    "highest_price": 78499.0,
-   "delta_pct": 93.6,
-   "observed_pct": 96.4,
-   "days_tracked": 51,
+   "delta_pct": 98.0,
+   "observed_pct": 98.9,
+   "days_tracked": 52,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 93.6% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 93.6% من سعره المعتاد",
+   "headline_en": "Real deal — 98.0% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 98.0% من سعره المعتاد",
    "quiet_raise": {
     "raised_on": "2026-10-26",
     "price_before": 599.0,
     "price_after": 71499.0,
     "raise_pct": 11836.4,
-    "still_above_pre_raise_pct": 367.3
+    "still_above_pre_raise_pct": 45.1
    },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:40:55+00:00",
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:01:12+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -262,8 +272,8 @@
      "price": 69744.0
     },
     {
-     "date": "2026-08-13",
-     "price": 69690.0
+     "date": "2026-08-14",
+     "price": 69000.0
     },
     {
      "date": "2026-08-15",
@@ -278,8 +288,8 @@
      "price": 70330.0
     },
     {
-     "date": "2026-10-11",
-     "price": 71499.0
+     "date": "2026-10-13",
+     "price": 16500.0
     },
     {
      "date": "2026-10-14",
@@ -294,8 +304,8 @@
      "price": 750.0
     },
     {
-     "date": "2026-10-17",
-     "price": 71499.0
+     "date": "2026-10-18",
+     "price": 11999.0
     },
     {
      "date": "2026-10-19",
@@ -306,12 +316,12 @@
      "price": 399.0
     },
     {
-     "date": "2026-10-22",
-     "price": 588.0
-    },
-    {
      "date": "2026-10-23",
      "price": 399.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 449.0
     },
     {
      "date": "2026-10-25",
@@ -320,10 +330,6 @@
     {
      "date": "2026-10-26",
      "price": 71499.0
-    },
-    {
-     "date": "2026-10-27",
-     "price": 733.9
     },
     {
      "date": "2026-10-28",
@@ -342,12 +348,12 @@
      "price": 69499.0
     },
     {
-     "date": "2026-11-02",
+     "date": "2026-11-03",
      "price": 70999.0
     },
     {
-     "date": "2026-11-03",
-     "price": 70999.0
+     "date": "2026-11-04",
+     "price": 33333.0
     },
     {
      "date": "2026-11-05",
@@ -358,20 +364,16 @@
      "price": 18599.0
     },
     {
-     "date": "2026-11-07",
-     "price": 75104.0
-    },
-    {
      "date": "2026-11-08",
      "price": 14999.0
     },
     {
-     "date": "2026-11-10",
-     "price": 14100.0
+     "date": "2026-11-09",
+     "price": 78499.0
     },
     {
-     "date": "2026-11-11",
-     "price": 78499.0
+     "date": "2026-11-10",
+     "price": 14100.0
     },
     {
      "date": "2026-11-12",
@@ -382,11 +384,11 @@
      "price": 71499.0
     },
     {
-     "date": "2026-11-15",
+     "date": "2026-11-14",
      "price": 70750.0
     },
     {
-     "date": "2026-11-16",
+     "date": "2026-11-15",
      "price": 70750.0
     },
     {
@@ -398,12 +400,12 @@
      "price": 14599.0
     },
     {
-     "date": "2026-11-20",
-     "price": 70199.0
+     "date": "2026-11-19",
+     "price": 14699.0
     },
     {
-     "date": "2026-11-21",
-     "price": 71425.0
+     "date": "2026-11-20",
+     "price": 70199.0
     },
     {
      "date": "2026-11-22",
@@ -416,9 +418,13 @@
     {
      "date": "2026-11-24",
      "price": 2799.0
+    },
+    {
+     "date": "2026-11-25",
+     "price": 869.0
     }
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "sku_id": "ps5-slim-disc",
@@ -430,26 +436,26 @@
    "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg?width=1200",
-   "current_price": 2399.0,
-   "baseline_price": 27703.19,
+   "current_price": 2205.0,
+   "baseline_price": 27225.75,
    "lowest_price": 905.0,
    "highest_price": 49000.0,
-   "delta_pct": 91.3,
-   "observed_pct": 95.1,
-   "days_tracked": 53,
+   "delta_pct": 91.9,
+   "observed_pct": 95.5,
+   "days_tracked": 54,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 91.3% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 91.3% من سعره المعتاد",
+   "headline_en": "Real deal — 91.9% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 91.9% من سعره المعتاد",
    "quiet_raise": {
     "raised_on": "2026-11-08",
     "price_before": 1200.0,
     "price_after": 40590.0,
     "raise_pct": 3282.5,
-    "still_above_pre_raise_pct": 99.9
+    "still_above_pre_raise_pct": 83.8
    },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:42:02+00:00",
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:02:18+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -492,8 +498,8 @@
      "price": 40949.0
     },
     {
-     "date": "2026-10-13",
-     "price": 41086.55
+     "date": "2026-10-14",
+     "price": 41084.8
     },
     {
      "date": "2026-10-15",
@@ -502,10 +508,6 @@
     {
      "date": "2026-10-16",
      "price": 1888.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 2023.0
     },
     {
      "date": "2026-10-18",
@@ -520,24 +522,24 @@
      "price": 40949.0
     },
     {
-     "date": "2026-10-22",
-     "price": 3009.0
-    },
-    {
      "date": "2026-10-23",
      "price": 1199.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 2299.0
     },
     {
      "date": "2026-10-25",
      "price": 42319.05
     },
     {
-     "date": "2026-10-26",
+     "date": "2026-10-27",
      "price": 42707.0
     },
     {
-     "date": "2026-10-27",
-     "price": 42707.0
+     "date": "2026-10-28",
+     "price": 4699.0
     },
     {
      "date": "2026-10-29",
@@ -548,8 +550,8 @@
      "price": 4142.0
     },
     {
-     "date": "2026-11-01",
-     "price": 43333.0
+     "date": "2026-11-02",
+     "price": 43250.0
     },
     {
      "date": "2026-11-03",
@@ -560,32 +562,28 @@
      "price": 43000.0
     },
     {
-     "date": "2026-11-05",
-     "price": 3076.0
-    },
-    {
      "date": "2026-11-06",
      "price": 42522.5
+    },
+    {
+     "date": "2026-11-07",
+     "price": 1200.0
     },
     {
      "date": "2026-11-08",
      "price": 40590.0
     },
     {
-     "date": "2026-11-09",
-     "price": 1450.0
-    },
-    {
      "date": "2026-11-10",
      "price": 1236.0
     },
     {
-     "date": "2026-11-12",
-     "price": 1468.0
+     "date": "2026-11-11",
+     "price": 1450.0
     },
     {
-     "date": "2026-11-13",
-     "price": 2650.0
+     "date": "2026-11-12",
+     "price": 1468.0
     },
     {
      "date": "2026-11-14",
@@ -596,8 +594,8 @@
      "price": 2650.0
     },
     {
-     "date": "2026-11-17",
-     "price": 49000.0
+     "date": "2026-11-16",
+     "price": 45449.0
     },
     {
      "date": "2026-11-18",
@@ -608,8 +606,8 @@
      "price": 7833.33
     },
     {
-     "date": "2026-11-21",
-     "price": 44500.0
+     "date": "2026-11-20",
+     "price": 46443.95
     },
     {
      "date": "2026-11-22",
@@ -622,208 +620,10 @@
     {
      "date": "2026-11-24",
      "price": 2399.0
-    }
-   ],
-   "is_new": true
-  },
-  {
-   "sku_id": "iphone-17-256gb-blue",
-   "name_en": "iPhone 17 256GB Mist Blue 5G",
-   "name_ar": "آيفون ١٧ ٢٥٦ جيجا أزرق ميست ٥ جي",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/iphone-17-256gb-mist-blue-5g-nano-sim-esim-with-facetime-middle-east-version/N70258760V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z7A646C2F0BD6F44C4760Z/45/_/1779094409/67747d93-e720-4432-9240-e44b32deefbf.jpg?width=1200",
-   "current_price": 8450.0,
-   "baseline_price": 38719.99,
-   "lowest_price": 541.0,
-   "highest_price": 80448.45,
-   "delta_pct": 78.2,
-   "observed_pct": 89.5,
-   "days_tracked": 53,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 78.2% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 78.2% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-10-28",
-    "price_before": 1050.0,
-    "price_after": 78149.95,
-    "raise_pct": 7342.9,
-    "still_above_pre_raise_pct": 704.8
-   },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:41:12+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 65999.0
     },
     {
-     "date": "2026-08-10",
-     "price": 65999.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 65999.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 67790.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 68580.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 68580.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 68580.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 75554.95
-    },
-    {
-     "date": "2026-09-19",
-     "price": 75554.95
-    },
-    {
-     "date": "2026-09-20",
-     "price": 75554.95
-    },
-    {
-     "date": "2026-10-11",
-     "price": 75200.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 2850.0
-    },
-    {
-     "date": "2026-10-16",
-     "price": 13799.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 11999.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 75200.0
-    },
-    {
-     "date": "2026-10-20",
-     "price": 541.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 1899.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 75200.0
-    },
-    {
-     "date": "2026-10-25",
-     "price": 1187.0
-    },
-    {
-     "date": "2026-10-26",
-     "price": 5995.0
-    },
-    {
-     "date": "2026-10-27",
-     "price": 1050.0
-    },
-    {
-     "date": "2026-10-29",
-     "price": 17719.0
-    },
-    {
-     "date": "2026-10-30",
-     "price": 80448.45
-    },
-    {
-     "date": "2026-11-01",
-     "price": 47999.0
-    },
-    {
-     "date": "2026-11-03",
-     "price": 3100.0
-    },
-    {
-     "date": "2026-11-04",
-     "price": 19820.0
-    },
-    {
-     "date": "2026-11-05",
-     "price": 77777.0
-    },
-    {
-     "date": "2026-11-06",
-     "price": 15099.0
-    },
-    {
-     "date": "2026-11-08",
-     "price": 77750.0
-    },
-    {
-     "date": "2026-11-09",
-     "price": 15000.0
-    },
-    {
-     "date": "2026-11-10",
-     "price": 14399.0
-    },
-    {
-     "date": "2026-11-12",
-     "price": 14999.0
-    },
-    {
-     "date": "2026-11-13",
-     "price": 14888.0
-    },
-    {
-     "date": "2026-11-14",
-     "price": 15799.0
-    },
-    {
-     "date": "2026-11-15",
-     "price": 15499.0
-    },
-    {
-     "date": "2026-11-17",
-     "price": 73999.0
-    },
-    {
-     "date": "2026-11-18",
-     "price": 75371.04
-    },
-    {
-     "date": "2026-11-19",
-     "price": 14649.0
-    },
-    {
-     "date": "2026-11-21",
-     "price": 13099.0
-    },
-    {
-     "date": "2026-11-22",
-     "price": 13099.0
-    },
-    {
-     "date": "2026-11-23",
-     "price": 9699.0
-    },
-    {
-     "date": "2026-11-24",
-     "price": 8450.0
+     "date": "2026-11-25",
+     "price": 2205.0
     }
    ],
    "is_new": false
@@ -838,26 +638,26 @@
    "url": "https://www.noon.com/egypt-en/219-piece-bits-and-keys-set/N39672695A/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/v1601286034/N39672695A_1.jpg?width=1200",
-   "current_price": 719.0,
-   "baseline_price": 3205.38,
+   "current_price": 1067.0,
+   "baseline_price": 3153.58,
    "lowest_price": 480.0,
    "highest_price": 9240.0,
-   "delta_pct": 77.6,
-   "observed_pct": 92.2,
-   "days_tracked": 48,
+   "delta_pct": 66.2,
+   "observed_pct": 88.5,
+   "days_tracked": 49,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 77.6% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 77.6% من سعره المعتاد",
+   "headline_en": "Real deal — 66.2% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 66.2% من سعره المعتاد",
    "quiet_raise": {
     "raised_on": "2026-11-06",
     "price_before": 650.0,
     "price_after": 9240.0,
     "raise_pct": 1321.5,
-    "still_above_pre_raise_pct": 10.6
+    "still_above_pre_raise_pct": 64.2
    },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:43:51+00:00",
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:04:17+00:00",
    "history": [
     {
      "date": "2026-08-10",
@@ -904,8 +704,8 @@
      "price": 910.0
     },
     {
-     "date": "2026-10-17",
-     "price": 1000.0
+     "date": "2026-10-18",
+     "price": 1023.0
     },
     {
      "date": "2026-10-19",
@@ -924,12 +724,12 @@
      "price": 1090.0
     },
     {
-     "date": "2026-10-25",
-     "price": 9240.0
-    },
-    {
      "date": "2026-10-26",
      "price": 950.0
+    },
+    {
+     "date": "2026-10-27",
+     "price": 857.0
     },
     {
      "date": "2026-10-28",
@@ -944,10 +744,6 @@
      "price": 1449.0
     },
     {
-     "date": "2026-11-01",
-     "price": 1399.0
-    },
-    {
      "date": "2026-11-02",
      "price": 1050.0
     },
@@ -956,16 +752,16 @@
      "price": 899.0
     },
     {
+     "date": "2026-11-04",
+     "price": 888.0
+    },
+    {
      "date": "2026-11-05",
      "price": 650.0
     },
     {
      "date": "2026-11-06",
      "price": 9240.0
-    },
-    {
-     "date": "2026-11-07",
-     "price": 821.0
     },
     {
      "date": "2026-11-08",
@@ -980,12 +776,12 @@
      "price": 6590.0
     },
     {
-     "date": "2026-11-12",
-     "price": 619.0
+     "date": "2026-11-11",
+     "price": 6590.0
     },
     {
-     "date": "2026-11-13",
-     "price": 485.0
+     "date": "2026-11-12",
+     "price": 619.0
     },
     {
      "date": "2026-11-14",
@@ -1004,7 +800,7 @@
      "price": 610.0
     },
     {
-     "date": "2026-11-19",
+     "date": "2026-11-18",
      "price": 636.0
     },
     {
@@ -1026,414 +822,10 @@
     {
      "date": "2026-11-24",
      "price": 719.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "haier-50-qled-tv",
-   "name_en": "Haier 50 inch 4K QLED Smart Google TV",
-   "name_ar": "شاشة هاير ٥٠ بوصة ٤K QLED سمارت",
-   "category": "electronics",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/haier-50-inch-4k-qled-smart-google-tv-h50s80fux-h50s80fux-black/N70202011V/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/pzsku/Z0960EA407541322467D6Z/45/_/1779199345/77f3bf3f-c68b-4388-b7da-bbba9285afd2.jpg?width=1200",
-   "current_price": 6199.0,
-   "baseline_price": 12290.86,
-   "lowest_price": 206.0,
-   "highest_price": 23000.0,
-   "delta_pct": 49.6,
-   "observed_pct": 73.0,
-   "days_tracked": 52,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 49.6% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 49.6% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-11-20",
-    "price_before": 206.0,
-    "price_after": 18190.0,
-    "raise_pct": 8730.1,
-    "still_above_pre_raise_pct": 2909.2
-   },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:41:34+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 17350.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 17270.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 17100.0
-    },
-    {
-     "date": "2026-10-11",
-     "price": 16350.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 1955.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 3750.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 2250.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 2650.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 4150.0
-    },
-    {
-     "date": "2026-10-24",
-     "price": 2650.0
-    },
-    {
-     "date": "2026-10-25",
-     "price": 3130.0
-    },
-    {
-     "date": "2026-10-27",
-     "price": 3450.0
-    },
-    {
-     "date": "2026-10-28",
-     "price": 1799.0
-    },
-    {
-     "date": "2026-10-29",
-     "price": 4543.0
-    },
-    {
-     "date": "2026-10-30",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-02",
-     "price": 8600.0
-    },
-    {
-     "date": "2026-11-03",
-     "price": 7480.0
-    },
-    {
-     "date": "2026-11-04",
-     "price": 8500.0
-    },
-    {
-     "date": "2026-11-05",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-07",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-08",
-     "price": 9349.0
-    },
-    {
-     "date": "2026-11-09",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-11",
-     "price": 4555.0
-    },
-    {
-     "date": "2026-11-12",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-13",
-     "price": 23000.0
-    },
-    {
-     "date": "2026-11-14",
-     "price": 18099.0
-    },
-    {
-     "date": "2026-11-16",
-     "price": 5999.0
-    },
-    {
-     "date": "2026-11-17",
-     "price": 7800.0
-    },
-    {
-     "date": "2026-11-18",
-     "price": 1455.0
-    },
-    {
-     "date": "2026-11-19",
-     "price": 206.0
-    },
-    {
-     "date": "2026-11-21",
-     "price": 4506.0
-    },
-    {
-     "date": "2026-11-22",
-     "price": 2450.0
-    },
-    {
-     "date": "2026-11-23",
-     "price": 2650.0
-    },
-    {
-     "date": "2026-11-24",
-     "price": 6199.0
-    }
-   ],
-   "is_new": false
-  },
-  {
-   "sku_id": "black-tea-500g",
-   "name_en": "Black Tea 500g",
-   "name_ar": "شاي أسود ٥٠٠ جرام",
-   "category": "supermarket",
-   "retailer": "noon",
-   "claimed_was": null,
-   "url": "https://www.noon.com/egypt-en/black-tea-500g/Z381EC15AEC5299666293Z/p/",
-   "affiliate_url": "",
-   "image": "https://f.nooncdn.com/p/79d97dcaae2453bdb2b27a3810e3bfd2|pzsku/Z381EC15AEC5299666293Z/45/1769440495/9d598c61-3df7-4a24-85f7-fb33e5963ac2.jpg?width=1200",
-   "current_price": 94.95,
-   "baseline_price": 126.26,
-   "lowest_price": 89.5,
-   "highest_price": 178.0,
-   "delta_pct": 24.8,
-   "observed_pct": 46.7,
-   "days_tracked": 54,
-   "verdict": "real",
-   "tone": "jade",
-   "headline_en": "Real deal — 24.8% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 24.8% من سعره المعتاد",
-   "quiet_raise": {
-    "raised_on": "2026-11-12",
-    "price_before": 89.5,
-    "price_after": 139.0,
-    "raise_pct": 55.3,
-    "still_above_pre_raise_pct": 6.1
-   },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:38:06+00:00",
-   "history": [
-    {
-     "date": "2026-08-09",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-10",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-11",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-12",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-14",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-15",
-     "price": 120.0
-    },
-    {
-     "date": "2026-08-16",
-     "price": 120.0
-    },
-    {
-     "date": "2026-09-18",
-     "price": 125.0
-    },
-    {
-     "date": "2026-09-19",
-     "price": 125.0
-    },
-    {
-     "date": "2026-09-20",
-     "price": 125.0
-    },
-    {
-     "date": "2026-10-13",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-14",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-15",
-     "price": 120.0
-    },
-    {
-     "date": "2026-10-17",
-     "price": 120.0
-    },
-    {
-     "date": "2026-10-18",
-     "price": 120.0
-    },
-    {
-     "date": "2026-10-19",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-22",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-23",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-24",
-     "price": 120.0
-    },
-    {
-     "date": "2026-10-26",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-27",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-28",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-29",
-     "price": 139.0
-    },
-    {
-     "date": "2026-10-30",
-     "price": 178.0
-    },
-    {
-     "date": "2026-11-01",
-     "price": 125.0
-    },
-    {
-     "date": "2026-11-02",
-     "price": 125.0
-    },
-    {
-     "date": "2026-11-03",
-     "price": 125.0
-    },
-    {
-     "date": "2026-11-05",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-06",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-07",
-     "price": 155.27
-    },
-    {
-     "date": "2026-11-09",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-10",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-11",
-     "price": 89.5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 92.5
-    },
-    {
-     "date": "2026-11-14",
-     "price": 92.5
-    },
-    {
-     "date": "2026-11-15",
-     "price": 94.95
-    },
-    {
-     "date": "2026-11-17",
-     "price": 99.95
-    },
-    {
-     "date": "2026-11-18",
-     "price": 99.95
-    },
-    {
-     "date": "2026-11-19",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-21",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-22",
-     "price": 139.0
-    },
-    {
-     "date": "2026-11-23",
-     "price": 89.95
     },
     {
-     "date": "2026-11-24",
-     "price": 94.95
+     "date": "2026-11-25",
+     "price": 1067.0
     }
    ],
    "is_new": false
@@ -1448,26 +840,26 @@
    "url": "https://www.noon.com/egypt-en/tomato-paste-2800grams/N40074702A/p/",
    "affiliate_url": "",
    "image": "https://f.nooncdn.com/p/pnsku/N40074702A/45/_/1708857898/13c006f5-a827-4e3e-88f8-2624d5a32d57.jpg?width=1200",
-   "current_price": 149.0,
-   "baseline_price": 174.66,
+   "current_price": 119.0,
+   "baseline_price": 174.17,
    "lowest_price": 75.0,
    "highest_price": 254.0,
-   "delta_pct": 14.7,
-   "observed_pct": 41.3,
-   "days_tracked": 52,
+   "delta_pct": 31.7,
+   "observed_pct": 53.1,
+   "days_tracked": 53,
    "verdict": "real",
    "tone": "jade",
-   "headline_en": "Real deal — 14.7% below its usual price",
-   "headline_ar": "خصم حقيقي — أقل بـ 14.7% من سعره المعتاد",
+   "headline_en": "Real deal — 31.7% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 31.7% من سعره المعتاد",
    "quiet_raise": {
     "raised_on": "2026-10-27",
     "price_before": 75.0,
     "price_after": 254.0,
     "raise_pct": 238.7,
-    "still_above_pre_raise_pct": 98.7
+    "still_above_pre_raise_pct": 58.7
    },
-   "last_seen": "2026-11-24",
-   "captured_at": "2026-11-24T14:39:35+00:00",
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T13:59:56+00:00",
    "history": [
     {
      "date": "2026-08-09",
@@ -1486,7 +878,7 @@
      "price": 254.0
     },
     {
-     "date": "2026-08-13",
+     "date": "2026-08-14",
      "price": 254.0
     },
     {
@@ -1502,8 +894,8 @@
      "price": 244.25
     },
     {
-     "date": "2026-09-18",
-     "price": 244.25
+     "date": "2026-10-11",
+     "price": 203.2
     },
     {
      "date": "2026-10-13",
@@ -1518,8 +910,8 @@
      "price": 110.0
     },
     {
-     "date": "2026-10-16",
-     "price": 119.0
+     "date": "2026-10-17",
+     "price": 126.0
     },
     {
      "date": "2026-10-18",
@@ -1534,8 +926,8 @@
      "price": 106.0
     },
     {
-     "date": "2026-10-22",
-     "price": 139.0
+     "date": "2026-10-23",
+     "price": 94.5
     },
     {
      "date": "2026-10-24",
@@ -1550,20 +942,16 @@
      "price": 75.0
     },
     {
-     "date": "2026-10-27",
-     "price": 254.0
-    },
-    {
      "date": "2026-10-28",
      "price": 75.0
     },
     {
-     "date": "2026-10-30",
-     "price": 254.0
+     "date": "2026-10-29",
+     "price": 95.0
     },
     {
-     "date": "2026-11-01",
-     "price": 114.0
+     "date": "2026-10-30",
+     "price": 254.0
     },
     {
      "date": "2026-11-02",
@@ -1574,12 +962,12 @@
      "price": 194.5
     },
     {
-     "date": "2026-11-05",
-     "price": 254.0
+     "date": "2026-11-04",
+     "price": 194.5
     },
     {
-     "date": "2026-11-06",
-     "price": 132.0
+     "date": "2026-11-05",
+     "price": 254.0
     },
     {
      "date": "2026-11-07",
@@ -1590,12 +978,12 @@
      "price": 254.0
     },
     {
-     "date": "2026-11-10",
-     "price": 121.14
+     "date": "2026-11-09",
+     "price": 155.0
     },
     {
-     "date": "2026-11-11",
-     "price": 199.0
+     "date": "2026-11-10",
+     "price": 121.14
     },
     {
      "date": "2026-11-12",
@@ -1606,11 +994,11 @@
      "price": 119.0
     },
     {
-     "date": "2026-11-15",
-     "price": 207.0
+     "date": "2026-11-14",
+     "price": 195.0
     },
     {
-     "date": "2026-11-16",
+     "date": "2026-11-15",
      "price": 207.0
     },
     {
@@ -1622,12 +1010,12 @@
      "price": 149.0
     },
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "price": 195.0
     },
     {
-     "date": "2026-11-21",
-     "price": 130.0
+     "date": "2026-11-20",
+     "price": 195.0
     },
     {
      "date": "2026-11-22",
@@ -1640,9 +1028,623 @@
     {
      "date": "2026-11-24",
      "price": 149.0
+    },
+    {
+     "date": "2026-11-25",
+     "price": 119.0
     }
    ],
    "is_new": false
+  },
+  {
+   "sku_id": "airfryer-xl-6-2l",
+   "name_en": "Airfryer XL 6.2L Touchscreen 1700W",
+   "name_ar": "ايرفراير اكس ال ٦.٢ لتر تاتش سكرين ١٧٠٠ وات",
+   "category": "electronics",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/airfryer-xl-see-through-cooking-window-13-cooking-methods-9-preset-functions-touchscreen-rapid-air-technology-6-2-l-1700-w-na230-09-black/N70131429V/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z3EA667C57F07DA7F33B7Z/45/_/1780913397/ee2ac02b-3dda-460b-854d-225dcb4bec1e.jpg?width=1200",
+   "current_price": 3550.0,
+   "baseline_price": 4926.96,
+   "lowest_price": 1093.0,
+   "highest_price": 7999.0,
+   "delta_pct": 27.9,
+   "observed_pct": 55.6,
+   "days_tracked": 54,
+   "verdict": "real",
+   "tone": "jade",
+   "headline_en": "Real deal — 27.9% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 27.9% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-10-19",
+    "price_before": 1200.0,
+    "price_after": 7199.0,
+    "raise_pct": 499.9,
+    "still_above_pre_raise_pct": 195.8
+   },
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:03:12+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 6204.35
+    },
+    {
+     "date": "2026-08-11",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-13",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-15",
+     "price": 6279.0
+    },
+    {
+     "date": "2026-08-16",
+     "price": 6241.7
+    },
+    {
+     "date": "2026-09-12",
+     "price": 6179.0
+    },
+    {
+     "date": "2026-09-18",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-09-19",
+     "price": 6099.0
+    },
+    {
+     "date": "2026-10-11",
+     "price": 6059.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 1602.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 1549.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 7199.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 1200.0
+    },
+    {
+     "date": "2026-10-19",
+     "price": 7199.0
+    },
+    {
+     "date": "2026-10-20",
+     "price": 1093.0
+    },
+    {
+     "date": "2026-10-23",
+     "price": 1650.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-10-25",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-10-27",
+     "price": 1199.0
+    },
+    {
+     "date": "2026-10-28",
+     "price": 1699.0
+    },
+    {
+     "date": "2026-10-29",
+     "price": 1410.0
+    },
+    {
+     "date": "2026-10-30",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-11-02",
+     "price": 1289.0
+    },
+    {
+     "date": "2026-11-03",
+     "price": 6379.0
+    },
+    {
+     "date": "2026-11-04",
+     "price": 6349.0
+    },
+    {
+     "date": "2026-11-06",
+     "price": 6149.0
+    },
+    {
+     "date": "2026-11-07",
+     "price": 7999.0
+    },
+    {
+     "date": "2026-11-08",
+     "price": 6139.0
+    },
+    {
+     "date": "2026-11-10",
+     "price": 2111.0
+    },
+    {
+     "date": "2026-11-11",
+     "price": 2499.0
+    },
+    {
+     "date": "2026-11-12",
+     "price": 1800.0
+    },
+    {
+     "date": "2026-11-14",
+     "price": 3025.0
+    },
+    {
+     "date": "2026-11-15",
+     "price": 3990.0
+    },
+    {
+     "date": "2026-11-16",
+     "price": 4500.0
+    },
+    {
+     "date": "2026-11-18",
+     "price": 3900.0
+    },
+    {
+     "date": "2026-11-19",
+     "price": 2999.0
+    },
+    {
+     "date": "2026-11-20",
+     "price": 3000.0
+    },
+    {
+     "date": "2026-11-22",
+     "price": 4185.0
+    },
+    {
+     "date": "2026-11-23",
+     "price": 6379.0
+    },
+    {
+     "date": "2026-11-24",
+     "price": 6289.0
+    },
+    {
+     "date": "2026-11-25",
+     "price": 3550.0
+    }
+   ],
+   "is_new": true
+  },
+  {
+   "sku_id": "buzz-lightyear-figure-12in",
+   "name_en": "Toy Story Buzz Lightyear Action Figure 12in",
+   "name_ar": "باز لايت يير حركي ١٢ بوصة",
+   "category": "toys",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/toy-story-3-buzz-lightyear-action-figure-12inch/N36430876A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pzsku/Z4BBD6949B7FA0F88E59DZ/45/_/1780571127/e4525c60-59b9-4d83-83f3-41e403962cf9.jpg?width=1200",
+   "current_price": 405.0,
+   "baseline_price": 561.12,
+   "lowest_price": 361.25,
+   "highest_price": 809.0,
+   "delta_pct": 27.8,
+   "observed_pct": 49.9,
+   "days_tracked": 53,
+   "verdict": "real",
+   "tone": "jade",
+   "headline_en": "Real deal — 27.8% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 27.8% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-11-13",
+    "price_before": 383.0,
+    "price_after": 772.0,
+    "raise_pct": 101.6,
+    "still_above_pre_raise_pct": 5.7
+   },
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:03:29+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-11",
+     "price": 450.0
+    },
+    {
+     "date": "2026-08-12",
+     "price": 449.43
+    },
+    {
+     "date": "2026-08-13",
+     "price": 448.85
+    },
+    {
+     "date": "2026-08-15",
+     "price": 445.8
+    },
+    {
+     "date": "2026-08-16",
+     "price": 446.1
+    },
+    {
+     "date": "2026-09-16",
+     "price": 422.3
+    },
+    {
+     "date": "2026-09-19",
+     "price": 422.3
+    },
+    {
+     "date": "2026-10-11",
+     "price": 425.0
+    },
+    {
+     "date": "2026-10-13",
+     "price": 500.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 772.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 475.0
+    },
+    {
+     "date": "2026-10-17",
+     "price": 772.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 499.0
+    },
+    {
+     "date": "2026-10-20",
+     "price": 461.0
+    },
+    {
+     "date": "2026-10-22",
+     "price": 475.0
+    },
+    {
+     "date": "2026-10-23",
+     "price": 450.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 499.0
+    },
+    {
+     "date": "2026-10-26",
+     "price": 750.0
+    },
+    {
+     "date": "2026-10-27",
+     "price": 772.0
+    },
+    {
+     "date": "2026-10-28",
+     "price": 772.0
+    },
+    {
+     "date": "2026-10-30",
+     "price": 500.0
+    },
+    {
+     "date": "2026-11-01",
+     "price": 550.0
+    },
+    {
+     "date": "2026-11-02",
+     "price": 361.25
+    },
+    {
+     "date": "2026-11-04",
+     "price": 809.0
+    },
+    {
+     "date": "2026-11-05",
+     "price": 640.0
+    },
+    {
+     "date": "2026-11-06",
+     "price": 772.0
+    },
+    {
+     "date": "2026-11-07",
+     "price": 473.0
+    },
+    {
+     "date": "2026-11-09",
+     "price": 460.0
+    },
+    {
+     "date": "2026-11-10",
+     "price": 450.0
+    },
+    {
+     "date": "2026-11-11",
+     "price": 449.0
+    },
+    {
+     "date": "2026-11-13",
+     "price": 772.0
+    },
+    {
+     "date": "2026-11-14",
+     "price": 636.0
+    },
+    {
+     "date": "2026-11-15",
+     "price": 772.0
+    },
+    {
+     "date": "2026-11-16",
+     "price": 636.0
+    },
+    {
+     "date": "2026-11-18",
+     "price": 636.0
+    },
+    {
+     "date": "2026-11-19",
+     "price": 506.0
+    },
+    {
+     "date": "2026-11-20",
+     "price": 625.0
+    },
+    {
+     "date": "2026-11-22",
+     "price": 405.0
+    },
+    {
+     "date": "2026-11-23",
+     "price": 772.0
+    },
+    {
+     "date": "2026-11-24",
+     "price": 772.0
+    },
+    {
+     "date": "2026-11-25",
+     "price": 405.0
+    }
+   ],
+   "is_new": true
+  },
+  {
+   "sku_id": "hair-beader-2in1",
+   "name_en": "2-in-1 Double the Fun Hair Beader",
+   "name_ar": "جهاز تضفير الشعر ٢ في ١",
+   "category": "beauty",
+   "retailer": "noon",
+   "claimed_was": null,
+   "url": "https://www.noon.com/egypt-en/2-in-1-double-the-fun-hair-beader/N16618713A/p/",
+   "affiliate_url": "",
+   "image": "https://f.nooncdn.com/p/pnsku/N16618713A/45/_/1764242083/24584243-a639-4030-94aa-e86ea7dab804.jpg?width=1200",
+   "current_price": 313.0,
+   "baseline_price": 385.0,
+   "lowest_price": 68.0,
+   "highest_price": 716.5,
+   "delta_pct": 18.7,
+   "observed_pct": 56.3,
+   "days_tracked": 52,
+   "verdict": "real",
+   "tone": "jade",
+   "headline_en": "Real deal — 18.7% below its usual price",
+   "headline_ar": "خصم حقيقي — أقل بـ 18.7% من سعره المعتاد",
+   "quiet_raise": {
+    "raised_on": "2026-11-06",
+    "price_before": 68.0,
+    "price_after": 425.0,
+    "raise_pct": 525.0,
+    "still_above_pre_raise_pct": 360.3
+   },
+   "last_seen": "2026-11-25",
+   "captured_at": "2026-11-25T14:03:53+00:00",
+   "history": [
+    {
+     "date": "2026-08-10",
+     "price": 337.15
+    },
+    {
+     "date": "2026-08-11",
+     "price": 337.1
+    },
+    {
+     "date": "2026-08-12",
+     "price": 392.48
+    },
+    {
+     "date": "2026-08-13",
+     "price": 359.95
+    },
+    {
+     "date": "2026-08-15",
+     "price": 359.95
+    },
+    {
+     "date": "2026-08-16",
+     "price": 359.95
+    },
+    {
+     "date": "2026-09-16",
+     "price": 275.05
+    },
+    {
+     "date": "2026-09-19",
+     "price": 273.55
+    },
+    {
+     "date": "2026-10-13",
+     "price": 360.0
+    },
+    {
+     "date": "2026-10-14",
+     "price": 360.0
+    },
+    {
+     "date": "2026-10-15",
+     "price": 350.0
+    },
+    {
+     "date": "2026-10-16",
+     "price": 368.0
+    },
+    {
+     "date": "2026-10-18",
+     "price": 359.95
+    },
+    {
+     "date": "2026-10-19",
+     "price": 360.0
+    },
+    {
+     "date": "2026-10-20",
+     "price": 350.0
+    },
+    {
+     "date": "2026-10-23",
+     "price": 355.0
+    },
+    {
+     "date": "2026-10-24",
+     "price": 323.96
+    },
+    {
+     "date": "2026-10-25",
+     "price": 323.96
+    },
+    {
+     "date": "2026-10-26",
+     "price": 355.0
+    },
+    {
+     "date": "2026-10-28",
+     "price": 360.0
+    },
+    {
+     "date": "2026-10-29",
+     "price": 350.0
+    },
+    {
+     "date": "2026-10-30",
+     "price": 318.95
+    },
+    {
+     "date": "2026-11-01",
+     "price": 251.7
+    },
+    {
+     "date": "2026-11-03",
+     "price": 650.0
+    },
+    {
+     "date": "2026-11-04",
+     "price": 716.0
+    },
+    {
+     "date": "2026-11-05",
+     "price": 68.0
+    },
+    {
+     "date": "2026-11-06",
+     "price": 425.0
+    },
+    {
+     "date": "2026-11-08",
+     "price": 350.0
+    },
+    {
+     "date": "2026-11-09",
+     "price": 525.0
+    },
+    {
+     "date": "2026-11-10",
+     "price": 339.0
+    },
+    {
+     "date": "2026-11-12",
+     "price": 315.56
+    },
+    {
+     "date": "2026-11-13",
+     "price": 315.56
+    },
+    {
+     "date": "2026-11-14",
+     "price": 253.05
+    },
+    {
+     "date": "2026-11-15",
+     "price": 400.0
+    },
+    {
+     "date": "2026-11-17",
+     "price": 636.0
+    },
+    {
+     "date": "2026-11-18",
+     "price": 636.0
+    },
+    {
+     "date": "2026-11-19",
+     "price": 716.5
+    },
+    {
+     "date": "2026-11-20",
+     "price": 269.0
+    },
+    {
+     "date": "2026-11-22",
+     "price": 269.0
+    },
+    {
+     "date": "2026-11-23",
+     "price": 269.0
+    },
+    {
+     "date": "2026-11-24",
+     "price": 528.8
+    },
+    {
+     "date": "2026-11-25",
+     "price": 313.0
+    }
+   ],
+   "is_new": true
   },
   {
    "sku_id": "noon-z2913c71aa9a381535495z",
